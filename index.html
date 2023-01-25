@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta
+			http-equiv="x-ua-compatible"
+			content="ie=edge"
+		/>
+		<title>Super tasty Restaurant</title>
+		<link
+			href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			rel="stylesheet"
+			id="bootstrap-css"
+		/>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- MDB icon -->
+		<link
+			rel="icon"
+			href="img/LogoAvatar.svg"
+			type="image/x-icon"
+		/>
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		/>
+		<!-- Google Fonts Roboto -->
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+		/>
+		<!-- MDB -->
+		<link
+			rel="stylesheet"
+			href="css/mdb.min.css"
+		/>
+		<!-- CSS -->
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg bg-dark mb-5">
+			<!-- Container wrapper -->
+			<div class="container-fluid">
+				<!-- Toggle button -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-mdb-toggle="collapse"
+					data-mdb-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<i class="fas fa-bars"></i>
+				</button>
+
+				<!-- Collapsible wrapper -->
+				<div
+					class="collapse navbar-collapse"
+					id="navbarSupportedContent"
+				>
+					<!-- Navbar brand -->
+					<a
+						class="navbar-brand mt-2 mt-lg-0"
+						href="#"
+					>
+						<img
+							src="img/LOGO.svg"
+							height="40"
+							alt="MY Logo"
+							loading="lazy"
+						/>
+					</a>
+					<!-- Left links -->
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a
+								class="nav-link active text-bg-dark"
+								href="index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="Menu.html"
+								>Menu</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="#"
+								>About</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="#"
+								>More</a
+							>
+						</li>
+					</ul>
+					<!-- Left links -->
+				</div>
+				<!-- Collapsible wrapper -->
+
+				<!-- Right elements -->
+				<div class="d-flex align-items-center">
+					<!-- Icon -->
+					<a
+						class="link-secondary me-3"
+						href="#"
+					>
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+
+					<!-- Notifications -->
+					<div class="dropdown">
+						<a
+							class="link-secondary me-3 dropdown-toggle hidden-arrow"
+							href="#"
+							id="navbarDropdownMenuLink"
+							role="button"
+							data-mdb-toggle="dropdown"
+							aria-expanded="false"
+						>
+							<i class="fas fa-bell"></i>
+							<span class="badge rounded-pill badge-notification bg-danger"
+								>1</span
+							>
+						</a>
+						<ul
+							class="dropdown-menu dropdown-menu-end"
+							aria-labelledby="navbarDropdownMenuLink"
+						>
+							<li>
+								<a
+									class="dropdown-item"
+									href="#"
+									>Some news</a
+								>
+							</li>
+							<li>
+								<a
+									class="dropdown-item"
+									href="#"
+									>Another news</a
+								>
+							</li>
+							<li>
+								<a
+									class="dropdown-item"
+									href="#"
+									>Something else here</a
+								>
+							</li>
+						</ul>
+					</div>
+					<!-- Avatar -->
+					<div class="dropdown">
+						<a
+							class="dropdown-toggle d-flex align-items-center hidden-arrow"
+							href="#"
+							id="navbarDropdownMenuAvatar"
+							role="button"
+							data-mdb-toggle="dropdown"
+							aria-expanded="false"
+						>
+							<img
+								src="img/LogoAvatar.svg"
+								class="rounded-circle"
+								height="25"
+								alt="Black and White Portrait of a Man"
+								loading="lazy"
+							/>
+						</a>
+						<ul
+							class="dropdown-menu dropdown-menu-end"
+							aria-labelledby="navbarDropdownMenuAvatar"
+						>
+							<li>
+								<a
+									class="dropdown-item"
+									href="#"
+									>My profile</a
+								>
+							</li>
+							<li>
+								<a
+									class="dropdown-item"
+									href="#"
+									>Settings</a
+								>
+							</li>
+							<li>
+								<a
+									class="dropdown-item"
+									href="#"
+									>Logout</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Right elements -->
+			</div>
+			<!-- Container wrapper -->
+		</nav>
+		<!-- Navbar -->
+		<div class="container flex-lg-wrap">
+			<div class="card bg-light opacity-90">
+				<article class="card-body mx-auto">
+					<h4 class="card-title mt-3 text-center">Create Account</h4>
+					<p class="text-center">Get started with your free account</p>
+					<p>
+						<a
+							href=""
+							class="btn btn-block btn-twitter"
+						>
+							<i class="fab fa-twitter"></i>   Login via Twitter</a
+						>
+						<a
+							href=""
+							class="btn btn-block btn-facebook"
+						>
+							<i class="fab fa-facebook-f"></i>   Login via facebook</a
+						>
+					</p>
+					<p class="divider-text">
+						<span class="bg-light">OR</span>
+					</p>
+					<form>
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<i class="fa fa-user"></i>
+								</span>
+							</div>
+							<input
+								name=""
+								class="form-control"
+								placeholder="Full name"
+								type="text"
+							/>
+						</div>
+						<!-- form-group// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<i class="fa fa-envelope"></i>
+								</span>
+							</div>
+							<input
+								name=""
+								class="form-control"
+								placeholder="Email address"
+								type="email"
+							/>
+						</div>
+						<!-- form-group// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<i class="fa fa-phone"></i>
+								</span>
+							</div>
+							<select
+								class="custom-select"
+								style="max-width: 120px"
+							>
+								<option selected="">+855</option>
+							</select>
+							<input
+								name=""
+								class="form-control"
+								placeholder="Phone number"
+								type="text"
+							/>
+						</div>
+						<!-- form-group// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<i class="fa fa-building"></i>
+								</span>
+							</div>
+							<select class="form-control">
+								<option selected="">Select job type</option>
+								<option>Designer</option>
+								<option>Manager</option>
+								<option>Accaunting</option>
+							</select>
+						</div>
+						<!-- form-group end.// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<i class="fa fa-lock"></i>
+								</span>
+							</div>
+							<input
+								class="form-control"
+								placeholder="Create password"
+								type="password"
+							/>
+						</div>
+						<!-- form-group// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<i class="fa fa-lock"></i>
+								</span>
+							</div>
+							<input
+								class="form-control"
+								placeholder="Repeat password"
+								type="password"
+							/>
+						</div>
+						<!-- form-group// -->
+						<div class="form-group">
+							<button
+								type="submit"
+								class="btn btn-primary btn-block"
+							>
+								Create Account
+							</button>
+						</div>
+						<!-- form-group// -->
+						<p class="text-center">Have an account? <a href="">Log In</a></p>
+					</form>
+				</article>
+			</div>
+
+			<!-- card.// -->
+		</div>
+
+		<!-- Start your project here-->
+	
+		<!-- End your project here-->
+
+		<!-- MDB -->
+		<script
+			type="text/javascript"
+			src="js/mdb.min.js"
+		></script>
+		<!-- Custom scripts -->
+		<script type="text/javascript"></script>
+	</body>
+</html>
