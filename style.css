@@ -11,6 +11,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.BG-MORE{
+	background: none;
+}
 /* FORM */
 .divider-text {
 	position: relative;
