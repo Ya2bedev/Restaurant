@@ -1,3 +1,4 @@
+@import url(https://github.com/Ya2bedev/FutWEB/blob/master/font/kizard.otf);
 .navbar-nav > .nav-item > .nav-link {
 	color: #ff6e31;
 }
@@ -11,8 +12,19 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.BG-MORE{
+.BG-MORE {
 	background: none;
+	background-image: linear-gradient(#16222a, #3a6073);
+	height: 100vh;
+	width: 100%;
+	/* Center and scale the image nicely */
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg-btn-learn_more {
+	background-color: #ff6e31;
+	color: #fff;
 }
 /* FORM */
 .divider-text {
@@ -64,4 +76,9 @@ body {
 	background: #ddd;
 	text-decoration: none;
 	color: #555;
+}
+/* ServiceCARD */
+.ServiceCARD {
+	backdrop-filter: blur(2px);
+	background-color: rgba(255, 255, 255, 0.2);
 }
