@@ -12,16 +12,40 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.BG-MORE {
-	background: none;
-	background-image: linear-gradient(#16222a, #3a6073);
-	height: 100vh;
-	width: 100%;
-	/* Center and scale the image nicely */
-
-	background-repeat: no-repeat;
-	background-size: cover;
+/*STYLE  PAGE MORE BACKGROUND COLOR*/
+.color-change-3x {
+	-webkit-animation: color-change-3x 4s linear infinite alternate both;
+	animation: color-change-3x 4s linear infinite alternate both;
 }
+
+/*
+ * ----------------------------------------
+ * animation color-change-3x
+ * ----------------------------------------
+ */
+@-webkit-keyframes color-change-3x {
+	0% {
+		background: #19dcea;
+	}
+	50% {
+		background: #b22cff;
+	}
+	100% {
+		background: #ea2222;
+	}
+}
+@keyframes color-change-3x {
+	0% {
+		background: #19dcea;
+	}
+	50% {
+		background: #b22cff;
+	}
+	100% {
+		background: #ea2222;
+	}
+}
+
 .bg-btn-learn_more {
 	background-color: #ff6e31;
 	color: #fff;
@@ -70,7 +94,6 @@ body {
 	transition: all 0.3s;
 	font-size: 0.9rem;
 }
-
 .social-link:hover,
 .social-link:focus {
 	background: #ddd;
@@ -82,3 +105,168 @@ body {
 	backdrop-filter: blur(2px);
 	background-color: rgba(255, 255, 255, 0.2);
 }
+/* ServiceSHADOW */
+.shadow-drop-2-center {
+	-webkit-animation: shadow-drop-2-center 0.4s
+		cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/*
+ * ----------------------------------------
+ * animation shadow-drop-2-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-drop-2-center {
+	0% {
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+	100% {
+		-webkit-transform: translateZ(50px);
+		transform: translateZ(50px);
+		-webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+	}
+}
+@keyframes shadow-drop-2-center {
+	0% {
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+	100% {
+		-webkit-transform: translateZ(50px);
+		transform: translateZ(50px);
+		-webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+	}
+}
+/* TEXT STYLE ABOUT US  */
+.text-pop-up-top {
+	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+		both;
+	animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/*
+ * ----------------------------------------
+ * animation text-pop-up-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes text-pop-up-top {
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		text-shadow: none;
+	}
+	100% {
+		-webkit-transform: translateY(-50px);
+		transform: translateY(-50px);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc,
+			0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc,
+			0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+	}
+}
+@keyframes text-pop-up-top {
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		text-shadow: none;
+	}
+	100% {
+		-webkit-transform: translateY(-50px);
+		transform: translateY(-50px);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc,
+			0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc,
+			0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+	}
+}
+/* TEXT STYLE SERVICE AND CAMPUS */
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+		both;
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+/*
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/* STYLE SHADOW ON CAMPUS CARD */
+.shadow-drop-2-bottom {
+	-webkit-animation: shadow-drop-2-bottom 0.4s
+		cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/*
+ * ----------------------------------------
+ * animation shadow-drop-2-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shadow-drop-2-bottom {
+	0% {
+	  -webkit-transform: translateZ(0) translateY(0);
+			  transform: translateZ(0) translateY(0);
+	  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+			  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+	100% {
+	  -webkit-transform: translateZ(50px) translateY(-12px);
+			  transform: translateZ(50px) translateY(-12px);
+	  -webkit-box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+			  box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+	}
+  }
+  @keyframes shadow-drop-2-bottom {
+	0% {
+	  -webkit-transform: translateZ(0) translateY(0);
+			  transform: translateZ(0) translateY(0);
+	  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+			  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+	100% {
+	  -webkit-transform: translateZ(50px) translateY(-12px);
+			  transform: translateZ(50px) translateY(-12px);
+	  -webkit-box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+			  box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+	}
+  }
+  
