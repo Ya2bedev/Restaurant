@@ -10,22 +10,20 @@ body {
 	height: 100vh;
 	width: 100%;
 	/* Center and scale the image nicely */
-
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-/*====STYLE  BACKGROUND PAGE MENU */
+/*====STYLE  BACKGROUND ON PAGE MENU */
 .MENU_BG {
 	background-image: url(img/MENU_BG.png);
 	/* Full height */
 	height: 100vh;
 	width: 100%;
 	/* Center and scale the image nicely */
-
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-/*====STYLE  BACKGROUND PAGE MORE */
+/*====STYLE  BACKGROUND ON PAGE MORE */
 .color-change-3x {
 	-webkit-animation: color-change-3x 4s linear infinite alternate both;
 	animation: color-change-3x 4s linear infinite alternate both;
@@ -69,7 +67,7 @@ body {
 	color: #fff;
 }
 
-/* FORM */
+/*=====FORM LIGIN ON PAGE HOME*/
 .divider-text {
 	position: relative;
 	text-align: center;
@@ -104,7 +102,7 @@ body {
 	color: #fff;
 }
 
-/*====MENU SLIDER */
+/*====SOCIAL MEDIA ICON ON PAGE ABOUT US*/
 .social-link {
 	width: 30px;
 	height: 30px;
@@ -112,7 +110,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #666;
 	border-radius: 50%;
 	transition: all 0.3s;
 	font-size: 0.9rem;
@@ -120,15 +117,16 @@ body {
 
 .social-link:hover,
 .social-link:focus {
-	background: #ddd;
+	background: rgb(199, 199, 199);
 	text-decoration: none;
-	color: #555;
+	color: rgb(31, 87, 254);
 }
 
-/*=====ServiceCARD */
-.ServiceCARD {
+/*=====ServiceCARD And CAROUSEL MENU CARD (BLUR-menu)*/
+.ServiceCARD,.BLUR-menu{
 	backdrop-filter: blur(2px);
 	background-color: rgba(255, 255, 255, 0.2);
+	color:#FFFFFF;
 }
 
 /*=====ServiceSHADOW */
@@ -281,8 +279,6 @@ body {
 .carousel-inner .carousel-item-prev {
 	display: flex;
 }
-
-/* medium and up screens */
 @media (min-width: 768px) {
 	.carousel-inner .carousel-item-end.active,
 	.carousel-inner .carousel-item-next {
@@ -298,4 +294,21 @@ body {
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
 	transform: translateX(0);
+}
+
+/*=====HOVER CARD SERVICE ON PAGE MORE*/
+.HOCARD{
+	transition: all 0.4s;
+}
+.HOCARD:hover{
+	transform: scale(1.15); 
+	margin: 1rem;
+}
+/*  */
+.HCmenu{
+	transition: all 0.4s;
+}
+.HCmenu:hover{
+	background-color: #FFFBF5;
+	color: #181D31;
 }
