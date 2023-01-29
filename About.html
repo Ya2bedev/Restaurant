@@ -1,114 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
-		<meta
-			http-equiv="x-ua-compatible"
-			content="ie=edge"
-		/>
-		<title>Menu</title>
-		<!-- MDB icon -->
-		<link
-			rel="icon"
-			href="img/LogoAvatar.svg"
-			type="image/x-icon"
-		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>About Us</title>
+		<!-- MY icon -->
+		<link rel="icon" href="img/LOGO_WEB.svg" type="image/x-icon" />
 		<!-- Font Awesome -->
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
 			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- Google Fonts Roboto -->
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-		/>
+		<link rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
 		<!-- MDB -->
-		<link
-			rel="stylesheet"
-			href="css/mdb.min.css"
-		/>
+		<link rel="stylesheet" href="css/mdb.min.css" />
 		<!-- CSS -->
-		<link
-			rel="stylesheet"
-			href="style.css"
-		/>
+		<link rel="stylesheet" href="style.css" />
+		<!-- CDN ANIMATION -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
-	<body>
+
+	<body class="BG-ABOUT">
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg bg-dark fixed-top">
+		<nav class="navbar navbar-expand-lg bg-dark ">
 			<!-- Container wrapper -->
 			<div class="container-fluid">
 				<!-- Toggle button -->
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-mdb-toggle="collapse"
-					data-mdb-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
+				<button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+					data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars"></i>
 				</button>
 
 				<!-- Collapsible wrapper -->
-				<div
-					class="collapse navbar-collapse"
-					id="navbarSupportedContent"
-				>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<!-- Navbar brand -->
-					<a
-						class="navbar-brand mt-2 mt-lg-0"
-						href="#"
-					>
-						<img
-							src="img/LOGO.svg"
-							height="40"
-							alt="MY Logo"
-							loading="lazy"
-						/>
+					<a class="navbar-brand mt-2 mt-lg-0" href="#">
+						<img src="img/LOGO.svg" height="40" alt="MY Logo" loading="lazy" />
 					</a>
 					<!-- Left links -->
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="index.html"
-								>Home</a
-							>
+							<a class="nav-link " href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="Menu.html"
-								>Menu</a
-							>
+							<a class="nav-link" href="Menu.html">Menu</a>
 						</li>
 						<li class="nav-item">
-							<a
-								class="nav-link active text-bg-dark"
-								href="About.html"
-								>About Us</a
-							>
+							<a class="nav-link active text-bg-dark" href="About.html">About Us</a>
 						</li>
 						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="More.html"
-								>More</a
-							>
+							<a class="nav-link" href="More.html">More</a>
 						</li>
 					</ul>
 					<!-- Left links -->
@@ -118,97 +64,46 @@
 				<!-- Right elements -->
 				<div class="d-flex align-items-center">
 					<!-- Icon -->
-					<a
-						class="link-secondary me-3"
-						href="#"
-					>
+					<a class="link-secondary me-3" href="#">
 						<i class="fas fa-shopping-cart"></i>
 					</a>
 
 					<!-- Notifications -->
 					<div class="dropdown">
-						<a
-							class="link-secondary me-3 dropdown-toggle hidden-arrow"
-							href="#"
-							id="navbarDropdownMenuLink"
-							role="button"
-							data-mdb-toggle="dropdown"
-							aria-expanded="false"
-						>
+						<a class="link-secondary me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+							role="button" data-mdb-toggle="dropdown" aria-expanded="false">
 							<i class="fas fa-bell"></i>
-							<span class="badge rounded-pill badge-notification bg-danger"
-								>1</span
-							>
+							<span class="badge rounded-pill badge-notification bg-danger">1</span>
 						</a>
-						<ul
-							class="dropdown-menu dropdown-menu-end"
-							aria-labelledby="navbarDropdownMenuLink"
-						>
+						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Some news</a
-								>
+								<a class="dropdown-item" href="#">Some news</a>
 							</li>
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Another news</a
-								>
+								<a class="dropdown-item" href="#">Another news</a>
 							</li>
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Something else here</a
-								>
+								<a class="dropdown-item" href="#">Something else here</a>
 							</li>
 						</ul>
 					</div>
 					<!-- Avatar -->
 					<div class="dropdown">
-						<a
-							class="dropdown-toggle d-flex align-items-center hidden-arrow"
-							href="#"
-							id="navbarDropdownMenuAvatar"
-							role="button"
-							data-mdb-toggle="dropdown"
-							aria-expanded="false"
-						>
-							<img
-								src="LogoAvatar.svg"
-								class="rounded-circle"
-								height="25"
-								alt="Black and White Portrait of a Man"
-								loading="lazy"
-							/>
+						<a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+							id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+							aria-expanded="false">
+							<img src="LogoAvatar.svg" class="rounded-circle" height="25"
+								alt="Black and White Portrait of a Man" loading="lazy" />
 						</a>
-						<ul
-							class="dropdown-menu dropdown-menu-end"
-							aria-labelledby="navbarDropdownMenuAvatar"
-						>
+						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>My profile</a
-								>
+								<a class="dropdown-item" href="#">My profile</a>
 							</li>
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Settings</a
-								>
+								<a class="dropdown-item" href="#">Settings</a>
 							</li>
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Logout</a
-								>
+								<a class="dropdown-item" href="#">Logout</a>
 							</li>
 						</ul>
 					</div>
@@ -217,19 +112,17 @@
 			</div>
 			<!-- Container wrapper -->
 		</nav>
-
-		<!-- MENU SLIDER -->
-		<div class="bg-light">
+		<!-- LEFT -->
+		<div class="bg-light  w-100 h-100">
 			<div class="container py-5">
-				<div class="row h-100 align-items-center py-5">
+				<div class="row  align-items-center py-5">
 					<div class="col-lg-6">
-						<h1
-							class="display-4"
-							style="color: #ff6e31; font-family: kizard"
-						>
+						<h1 class="display-4" style="color: #ff6e31; font-family: kizard" data-aos="fade-down"
+							data-aos-easing="ease-in-out">
 							About us
 						</h1>
-						<p class="lead text-muted mb-0">
+						<p class="lead text-muted mb-0" data-aos="fade-right" data-aos-easing="ease-in-out"
+							data-aos-delay="1000">
 							Welcome to Our Restaurant! We are a family-owned, upscale
 							restaurant located in the heart of the city. Our goal is to
 							provide our guests with an exquisite dining experience. We offer a
@@ -241,39 +134,32 @@
 							Thank you for choosing Our Restaurant and we hope that your
 							experience will be one of a kind!
 						</p>
-						<p class="lead text-muted">
+						<p class="lead text-muted" data-aos="fade-up" data-aos-easing="ease-in-out">
 							RESTAURANT
-							<a
-								href="index.html"
-								class="text-muted"
-							>
-								<u>SUPERTASTY</u></a
-							>
+							<a href="index.html" class="text-muted">
+								<u>SUPERTASTY</u></a>
 						</p>
 					</div>
-					<div class="col-lg-6 d-none d-lg-block">
-						<img
-							src="img/Black Colorful Event Chef Instagram Story (1080 × 1080 px).svg"
-							alt=""
-							class="img-fluid"
-						/>
+					<div class="col-lg-6 d-none mt-0 d-lg-block ">
+						<img src="img/Chef.svg" alt="" class="img-fluid" data-aos="slide-left"
+							data-aos-easing="ease-in-out" />
 					</div>
 				</div>
 			</div>
+
 		</div>
 
-		<div class="bg-white py-5">
+		<div class=" py-5">
 			<div class="container py-5">
 				<div class="row align-items-center mb-5">
 					<div class="col-lg-6 order-2 order-lg-1">
 						<i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
-						<h2
-							class="font-weight-light"
-							style="color: #ff6e31"
-						>
+						<h2 class="font-weight-light" style="color: #ff6e31" data-aos="slide-left"
+							data-aos-easing="ease-in-out">
 							Our services
 						</h2>
-						<p class="font-italic text-muted mb-4">
+						<p class="font-italic text-light text-opacity-75 mb-4" data-aos="slide-left"
+							data-aos-easing="ease-in-out" data-aos-delay="1000">
 							Our team has been providing quality catering services to local
 							restaurants for over a decade. We have a deep understanding of the
 							restaurant industry and know what it takes to make a restaurant
@@ -284,32 +170,24 @@
 							We strive to be an integral part of your restaurant’s success by
 							helping you create memorable experiences for your customers!
 						</p>
-						<a
-							href="More.html#sectionSV"
-							class="btn px-5 rounded-pill shadow-sm bg-btn-learn_more"
-							>Learn More</a
-						>
+						<a href="More.html#sectionSV" class="btn px-5 rounded-pill shadow-sm text-light BTN_see_more"
+							data-aos="slide-up" data-aos-easing="ease-in-out">See
+							More</a>
 					</div>
 					<div class="col-lg-5 px-5 mx-auto order-1 order-lg-2">
-						<img
-							src="img/Services (1080 × 1080 px) (1).svg"
-							alt=""
-							class="img-fluid mb-4 mb-lg-0"
-						/>
+						<img src="img/Services (1080 × 1080 px) (1).svg" alt="" class="img-fluid mb-4 mb-lg-0"
+							data-aos="fade-left" data-aos-easing="ease-in-out" />
 					</div>
 				</div>
 				<div class="row align-items-center">
 					<div class="col-lg-5 px-5 mx-auto">
-						<img
-							src="img/CAMPUS.png"
-							alt=""
-							class="img-fluid mb-4 mb-lg-0"
-						/>
+						<img src="img/CAMPUS.png" alt="" class="img-fluid mb-4 mb-lg-0" data-aos="flip-left"
+							data-aos-easing="ease-in-out" />
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6" data-aos="zoom-in-up" data-aos-easing="ease-in-out">
 						<i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
-						<h2 class="font-weight-light">CAMPUS</h2>
-						<p class="font-italic text-muted mb-4">
+						<h2 class="font-weight-light" style="color: #ff6e31">CAMPUS</h2>
+						<p class="font-italic text-light text-opacity-75 mb-4">
 							Our campus offers a variety of local restaurants which provide
 							delicious and affordable meals for students, faculty and staff.
 							The local restaurants on our campus are a great way to enjoy a
@@ -322,22 +200,19 @@
 							so many different choices available, there is always something new
 							to try!
 						</p>
-						<a
-							href="More.html#sectionCAMPUS"
-							class="btn px-5 rounded-pill shadow-sm bg-btn-learn_more"
-							>Learn More</a
-						>
+						<a href="More.html#sectionCAMPUS"
+							class="btn px-5 rounded-pill shadow-sm text-light BTN_see_more">See More</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="bg-light py-5">
+		<div class="text-bg-dark py-5">
 			<div class="container py-5">
 				<div class="row mb-4">
-					<div class="col-lg-5">
-						<h2 class="display-4 font-weight-light">Our team</h2>
-						<p class="font-italic text-muted">
+					<div class="col-lg-5" >
+						<h2 class="display-4 fw-bold" style="color: #ff6e31" data-aos="fade-up" data-aos-easing="ease-in-out">Our Team</h2>
+						<p class="font-italic text-muted" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="1000">
 							Welcome to Our Team, the best restaurant in town! We are a team of
 							dedicated professionals who have come together to create a unique
 							dining experience. Our menu is designed to suit the tastes and
@@ -352,48 +227,28 @@
 
 				<div class="row text-center">
 					<!-- Team item-->
-					<div class="col-xl-3 col-sm-6 mb-5">
-						<div class="bg-white rounded shadow-sm py-5 px-4">
-							<img
-								src="img/LOGO(100 × 100 mm).svg"
-								alt=""
-								width="100"
-								class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
-							/>
+					<div class="col-xl-3 col-sm-6 mb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic">
+						<div class="bg-gradient  rounded shadow-sm py-5 px-4">
+							<img src="img/LOGO(100 × 100 mm).svg" alt="" width="100"
+								class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
 							<h5 class="mb-0">CHHAYA</h5>
 							<span class="small text-uppercase text-muted">CEO - FOUNDER</span>
 							<ul class="social mb-0 list-inline mt-3">
 								<li class="list-inline-item">
-									<a
-										href="https://www.facebook.com/profile.php?id=100056896857156&mibextid=ZbWKwL"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-facebook"></i
-									></a>
+									<a href="https://www.facebook.com/profile.php?id=100056896857156&mibextid=ZbWKwL"
+										target="_blank" class="social-link"><i class="fa-brands fa-facebook"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="https://t.me/numbinthepain"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-telegram"></i
-									></a>
+									<a href="https://t.me/numbinthepain" target="_blank" class="social-link"><i
+											class="fa-brands fa-telegram"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="http://tiktok.com/@thereallyaa"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-tiktok"></i
-									></a>
+									<a href="http://tiktok.com/@thereallyaa" target="_blank" class="social-link"><i
+											class="fa-brands fa-tiktok"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="https://instagram.com/ream_ek?igshid=NTA5ZTk1NTc="
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-instagram"></i
-									></a>
+									<a href="https://instagram.com/ream_ek?igshid=NTA5ZTk1NTc=" target="_blank"
+										class="social-link"><i class="fa-brands fa-instagram"></i></a>
 								</li>
 							</ul>
 						</div>
@@ -401,48 +256,28 @@
 					<!-- End-->
 
 					<!-- Team item-->
-					<div class="col-xl-3 col-sm-6 mb-5">
-						<div class="bg-white rounded shadow-sm py-5 px-4">
-							<img
-								src="img/SE (100 × 100 mm).svg"
-								alt=""
-								width="100"
-								class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
-							/>
+					<div class="col-xl-3 col-sm-6 mb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic">
+						<div class="bg-gradient  rounded shadow-sm py-5 px-4">
+							<img src="img/SE (100 × 100 mm).svg" alt="" width="100"
+								class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
 							<h5 class="mb-0">SE</h5>
 							<span class="small text-uppercase text-muted">MANAGER</span>
 							<ul class="social mb-0 list-inline mt-3">
 								<li class="list-inline-item">
-									<a
-										href="https://www.facebook.com/vaese25?mibextid=ZbWKwL"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-facebook-f"></i
-									></a>
+									<a href="https://www.facebook.com/vaese25?mibextid=ZbWKwL" target="_blank"
+										class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="https://t.me/lokbongse"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-telegram"></i
-									></a>
+									<a href="https://t.me/lokbongse" target="_blank" class="social-link"><i
+											class="fa-brands fa-telegram"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="http://tiktok.com/@chaovmeanub"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-tiktok"></i
-									></a>
+									<a href="http://tiktok.com/@chaovmeanub" target="_blank" class="social-link"><i
+											class="fa-brands fa-tiktok"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="https://instagram.com/vae_se_ph?igshid=NTA5ZTk1NTc="
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-instagram"></i
-									></a>
+									<a href="https://instagram.com/vae_se_ph?igshid=NTA5ZTk1NTc=" target="_blank"
+										class="social-link"><i class="fa-brands fa-instagram"></i></a>
 								</li>
 							</ul>
 						</div>
@@ -450,48 +285,28 @@
 					<!-- End-->
 
 					<!-- Team item-->
-					<div class="col-xl-3 col-sm-6 mb-5">
-						<div class="bg-white rounded shadow-sm py-5 px-4">
-							<img
-								src="img/KENNY (100 × 100 mm).svg"
-								alt=""
-								width="100"
-								class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
-							/>
+					<div class="col-xl-3 col-sm-6 mb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic">
+						<div class="bg-gradient  rounded shadow-sm py-5 px-4">
+							<img src="img/KENNY (100 × 100 mm).svg" alt="" width="100"
+								class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
 							<h5 class="mb-0">KENNY</h5>
 							<span class="small text-uppercase text-muted">LEADER</span>
 							<ul class="social mb-0 list-inline mt-3">
 								<li class="list-inline-item">
-									<a
-										href="https://www.facebook.com/profile.php?id=100078235171012&mibextid=LQQJ4d"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-facebook-f"></i
-									></a>
+									<a href="https://www.facebook.com/profile.php?id=100078235171012&mibextid=LQQJ4d"
+										target="_blank" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="https://t.me/CR7_M12_Real_Madrid"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-telegram"></i
-									></a>
+									<a href="https://t.me/CR7_M12_Real_Madrid" target="_blank" class="social-link"><i
+											class="fa-brands fa-telegram"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="http://www.tiktok.com/@kennykayo180"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-tiktok"></i
-									></a>
+									<a href="http://www.tiktok.com/@kennykayo180" target="_blank" class="social-link"><i
+											class="fa-brands fa-tiktok"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="https://instagram.com/kenny.kayo?igshid=OGQ2MjdiOTE="
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-instagram"></i
-									></a>
+									<a href="https://instagram.com/kenny.kayo?igshid=OGQ2MjdiOTE=" target="_blank"
+										class="social-link"><i class="fa-brands fa-instagram"></i></a>
 								</li>
 							</ul>
 						</div>
@@ -499,32 +314,20 @@
 					<!-- End-->
 
 					<!-- Team item-->
-					<div class="col-xl-3 col-sm-6 mb-5">
-						<div class="bg-white rounded shadow-sm py-5 px-4">
-							<img
-								src="img/VANNET (100 × 100 mm).svg"
-								alt=""
-								width="100"
-								class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
-							/>
+					<div class="col-xl-3 col-sm-6 mb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic">
+						<div class="bg-gradient rounded shadow-sm py-5 px-4">
+							<img src="img/VANNET (100 × 100 mm).svg" alt="" width="100"
+								class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
 							<h5 class="mb-0">VANNET</h5>
 							<span class="small text-uppercase text-muted">CO - LEADER</span>
 							<ul class="social mb-0 list-inline mt-3">
 								<li class="list-inline-item">
-									<a
-										href="https://www.facebook.com/profile.php?id=100028063453799"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-facebook-f"></i
-									></a>
+									<a href="https://www.facebook.com/profile.php?id=100028063453799" target="_blank"
+										class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
 								</li>
 								<li class="list-inline-item">
-									<a
-										href="https://t.me/nom_vannet"
-										target="_blank"
-										class="social-link"
-										><i class="fa-brands fa-telegram"></i
-									></a>
+									<a href="https://t.me/nom_vannet" target="_blank" class="social-link"><i
+											class="fa-brands fa-telegram"></i></a>
 								</li>
 								<!-- <li class="list-inline-item">
 									<a
@@ -548,23 +351,26 @@
 			</div>
 		</div>
 
-		<footer class="bg-light pb-5">
+		<footer class="bg-dark pb-5">
 			<div class="container text-center">
 				<p class="font-italic text-muted mb-0">
 					&copy; Copyrights
-					<a href="https://teal-dieffenbachia-e30e1c.netlify.app/"
-						>SuperTasty.com</a
-					>
+					<a href="https://teal-dieffenbachia-e30e1c.netlify.app/">SuperTasty.com</a>
 					All rights reserved.
 				</p>
 			</div>
 		</footer>
 		<!-- MDB -->
-		<script
-			type="text/javascript"
-			src="js/mdb.min.js"
-		></script>
+		<script type="text/javascript" src="js/mdb.min.js"></script>
 		<!-- Custom scripts -->
 		<script type="text/javascript"></script>
+		<!-- //CDN JAVASCRIPT MENU LIST ITEMS -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				duration: 1000,
+			});
+		</script>
 	</body>
+
 </html>
