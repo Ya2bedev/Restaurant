@@ -38,11 +38,11 @@ body {
 	background-attachment: fixed;
 }
 .GRADIENT-ON {
-	color: #FDAF75;
+	color: #fdaf75;
 	font-size: 3rem;
 }
-.GRADIENT-ON>span {
-	color:  #F24A72;
+.GRADIENT-ON > span {
+	color: #f24a72;
 }
 /*====STYLE  BACKGROUND ON PAGE MORE */
 .color-change-3x {
@@ -279,8 +279,7 @@ body {
 	transition: all 0.4s;
 }
 .HOCARD:hover {
-	transform: scale(1.15);
-	margin: 1rem;
+	transform: scale(1.1);
 }
 /* === HOVER CARD MENU*/
 .HCmenu {
