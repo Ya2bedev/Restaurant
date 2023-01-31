@@ -28,6 +28,7 @@ body {
 
 /*====STYLE  BACKGROUND ON PAGE MENU */
 .MENU_BG {
+	background: none;
 	background-image: url(img/MENU_BG.png);
 	/* Full height */
 	height: 100vh;
