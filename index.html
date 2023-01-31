@@ -220,7 +220,10 @@
 			<!-- Container wrapper -->
 		</nav>
 		<!-- End Navbar -->
-		<div class="container flex-lg-wrap">
+		<div
+			class="container flex-lg-wrap"
+			style="max-width: 320px"
+		>
 			<div class="card bg-light opacity-90">
 				<article class="card-body mx-auto">
 					<h4 class="card-title mt-3 text-center">Create Account</h4>
@@ -230,13 +233,13 @@
 							href=""
 							class="btn btn-block btn-twitter"
 						>
-							<i class="fab fa-twitter"></i>   Login via Twitter</a
+							<i class="fab fa-google"></i> Login with Google</a
 						>
 						<a
 							href=""
 							class="btn btn-block btn-facebook"
 						>
-							<i class="fab fa-facebook-f"></i>   Login via facebook</a
+							<i class="fab fa-facebook-f"></i> Login with facebook</a
 						>
 					</p>
 					<p class="divider-text">
@@ -279,7 +282,7 @@
 							</div>
 							<select
 								class="custom-select"
-								style="max-width: 120px; height: 33px"
+								style="max-width: 120px; max-height: 34px"
 							>
 								<option selected="">+855</option>
 							</select>
@@ -289,20 +292,6 @@
 								placeholder="Phone number"
 								type="text"
 							/>
-						</div>
-						<!-- form-group// -->
-						<div class="form-group input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">
-									<i class="fa fa-building"></i>
-								</span>
-							</div>
-							<select class="form-control">
-								<option selected="">Select job type</option>
-								<option>Designer</option>
-								<option>Manager</option>
-								<option>Accaunting</option>
-							</select>
 						</div>
 						<!-- form-group end.// -->
 						<div class="form-group input-group">
@@ -359,7 +348,7 @@
 		></script>
 		<!-- Custom scripts -->
 		<script type="text/javascript"></script>
-		<!-- //CDN JAVASCRIPT MENU LIST ITEMS -->
+		<!-- //CDN JAVASCRIPT FORM ANIMATION -->
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();

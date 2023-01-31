@@ -38,12 +38,24 @@ body {
 	background-attachment: fixed;
 }
 .GRADIENT-ON {
-	color: #fdaf75;
 	font-size: 3rem;
+	font-family: kizard;
+	text-align: center;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-image: -webkit-linear-gradient(
+		to left,
+		#880ce0c7,
+		#e6072c
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background-image: linear-gradient(
+		to left,
+		#880ce0c7,
+		#e6072c
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.GRADIENT-ON > span {
-	color: #f24a72;
-}
+
 /*====STYLE  BACKGROUND ON PAGE MORE */
 .color-change-3x {
 	-webkit-animation: color-change-3x 4s linear infinite alternate both;
