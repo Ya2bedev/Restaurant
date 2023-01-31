@@ -255,9 +255,6 @@ body {
 }
 
 /*=====CARDS_WRAPPER MENU */
-.M-Col {
-	margin: 0.75rem;
-}
 
 @media (max-width: 767px) {
 	.carousel-inner .carousel-item > div {
