@@ -3,7 +3,11 @@
 .navbar-nav > .nav-item > .nav-link {
 	color: #ff6e31;
 }
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	background-image: url(img/Background.png);
 	/* Full height */
