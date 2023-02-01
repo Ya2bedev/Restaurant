@@ -16,10 +16,10 @@ body {
 	/* Center and scale the image nicely */
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 /* ====STYLE BACKGROUND ON PAGE ABOUT US */
 .BG-ABOUT {
-	background: none;
 	background-image: url(img/ABOUT_BG.png);
 	/* Full height */
 	height: 100vh;
