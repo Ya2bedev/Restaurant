@@ -1,119 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
-		<meta
-			http-equiv="x-ua-compatible"
-			content="ie=edge"
-		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<title>Menu</title>
 
 		<!-- BOOSTRAP 5-->
-		<link
-			rel="stylesheet"
-			href="bootstrap.min.css"
-		/>
+		<link rel="stylesheet" href="bootstrap.min.css" />
 		<!-- MY icon -->
-		<link
-			rel="icon"
-			href="img/LOGO_WEB.svg"
-			type="image/x-icon"
-		/>
+		<link rel="icon" href="img/LOGO_WEB.svg" type="image/x-icon" />
 		<!-- Font Awesome -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 		<!-- Google Fonts Roboto -->
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-		/>
+		<link rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
 		<!-- MDB -->
-		<link
-			rel="stylesheet"
-			href="css/mdb.min.css"
-		/>
+		<link rel="stylesheet" href="css/mdb.min.css" />
 		<!-- CSS -->
-		<link
-			rel="stylesheet"
-			href="style.css"
-		/>
+		<link rel="stylesheet" href="style.css" />
 
-		<link
-			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-			rel="stylesheet"
-		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 	</head>
 
-	<body class="MENU_BG">
+	<body class="BG_MENU">
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg bg-dark mb-4">
+		<nav class="navbar navbar-expand-md bg-dark mb-4 fixed-top">
 			<!-- Container wrapper -->
 			<div class="container-fluid">
 				<!-- Toggle button -->
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-mdb-toggle="collapse"
-					data-mdb-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
+				<button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+					data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars"></i>
 				</button>
 
 				<!-- Collapsible wrapper -->
-				<div
-					class="collapse navbar-collapse px-2"
-					id="navbarSupportedContent"
-				>
+				<div class="collapse navbar-collapse px-2" id="navbarSupportedContent">
 					<!-- Navbar brand -->
-					<a
-						class="navbar-brand mt-2 mt-lg-0"
-						href="index.html"
-					>
-						<img
-							src="img/LOGO.svg"
-							height="40"
-							alt="MY Logo"
-							loading="lazy"
-						/>
+					<a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+						<img src="img/LOGO.svg" height="40" alt="MY Logo" loading="lazy" />
 					</a>
 					<!-- Left links -->
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="index.html"
-								>Home</a
-							>
+							<a class="nav-link" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
-							<a
-								class="nav-link active text-bg-dark"
-								href="Menu.html"
-								>Menu</a
-							>
+							<a class="nav-link active text-bg-dark" href="Menu.html">Menu</a>
 						</li>
 						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="About.html"
-								>About Us</a
-							>
+							<a class="nav-link" href="About.html">About Us</a>
 						</li>
 						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="More.html"
-								>More</a
-							>
+							<a class="nav-link" href="More.html">More</a>
 						</li>
 					</ul>
 					<!-- Left links -->
@@ -123,97 +64,46 @@
 				<!-- Right elements -->
 				<div class="d-flex align-items-center px-2">
 					<!-- Icon -->
-					<a
-						class="link-secondary me-3"
-						href="#"
-					>
+					<a class="link-secondary me-3" href="#">
 						<i class="fas fa-shopping-cart"></i>
 					</a>
 
 					<!-- Notifications -->
 					<div class="dropdown">
-						<a
-							class="link-secondary me-3 dropdown-toggle hidden-arrow"
-							href="#"
-							id="navbarDropdownMenuLink"
-							role="button"
-							data-mdb-toggle="dropdown"
-							aria-expanded="false"
-						>
+						<a class="link-secondary me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+							role="button" data-mdb-toggle="dropdown" aria-expanded="false">
 							<i class="fas fa-bell"></i>
-							<span class="badge rounded-pill badge-notification bg-danger"
-								>1</span
-							>
+							<span class="badge rounded-pill badge-notification bg-danger">1</span>
 						</a>
-						<ul
-							class="dropdown-menu dropdown-menu-end"
-							aria-labelledby="navbarDropdownMenuLink"
-						>
+						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Some news</a
-								>
+								<a class="dropdown-item" href="#">Some news</a>
 							</li>
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Another news</a
-								>
+								<a class="dropdown-item" href="#">Another news</a>
 							</li>
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Something else here</a
-								>
+								<a class="dropdown-item" href="#">Something else here</a>
 							</li>
 						</ul>
 					</div>
 					<!-- Avatar -->
 					<div class="dropdown">
-						<a
-							class="dropdown-toggle d-flex align-items-center hidden-arrow"
-							href="#"
-							id="navbarDropdownMenuAvatar"
-							role="button"
-							data-mdb-toggle="dropdown"
-							aria-expanded="false"
-						>
-							<img
-								src="LogoAvatar.svg"
-								class="rounded-circle"
-								height="25"
-								alt="Black and White Portrait of a Man"
-								loading="lazy"
-							/>
+						<a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+							id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+							aria-expanded="false">
+							<img src="LogoAvatar.svg" class="rounded-circle" height="25"
+								alt="Black and White Portrait of a Man" loading="lazy" />
 						</a>
-						<ul
-							class="dropdown-menu dropdown-menu-end"
-							aria-labelledby="navbarDropdownMenuAvatar"
-						>
+						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>My profile</a
-								>
+								<a class="dropdown-item" href="#">My profile</a>
 							</li>
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Settings</a
-								>
+								<a class="dropdown-item" href="#">Settings</a>
 							</li>
 							<li>
-								<a
-									class="dropdown-item"
-									href="#"
-									>Logout</a
-								>
+								<a class="dropdown-item" href="#">Logout</a>
 							</li>
 						</ul>
 					</div>
@@ -223,1011 +113,227 @@
 			<!-- Container wrapper -->
 		</nav>
 		<!-- //Navbar -->
+		<!-- SLIDE MENU LIST ITEMS -->
 
-		<!-- MENU SLIDER -->
-		<div
-			class="container-fluid text-center my-3 mt-lg-5 pt-5"
-			id="TOP"
-		>
-			<h1
-				data-aos="fade-up"
-				data-aos-duration="1200"
-				style="color: #fdaf75"
-			>
-				OUR <span style="color: #f24a72">MENU</span>
-			</h1>
-			<div class="row mx-auto my-auto justify-content-center">
-				<div
-					id="recipeCarousel"
-					class="carousel slide"
-					data-bs-ride="carousel"
-				>
-					<div
-						class="carousel-inner"
-						role="listbox"
-					>
-						<div class="carousel-item active">
-							<div class="col-md-3">
-								<div class="card shadow-drop-2-center m-2 BLUR-menu HCmenu">
-									<img
-										src="img/1.png"
-										class="card-img-top"
-										alt="Fissure in Sandstone"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">
-											<span class="fs-2">Fried Chicken </span> <br /><span
-												class="text-warning"
-												>Price</span
-											>
-											$55
-										</h5>
+		<div class="BG_SLIDE w-auto">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+						class="carInd active" aria-current="true" aria-label="Slide 1"
+						style="background-color: #fafafa !important;"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+						aria-label="Slide 2" style="background-color: #fafafa !important;"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+						aria-label="Slide 3" style="background-color: #fafafa !important;"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+						aria-label="Slide 4" style="background-color: #fafafa !important;"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+						aria-label="Slide 5" style="background-color: #fafafa !important;"></button>
+				</div>
+				<div class="container-fluid carousel-inner py-4" >
+					<!-- Item 01 -->
+					<div class="carousel-item active"  >
+						<div class="container my-4">
+							<div class="card card_slide mb-3 filter shadow-lg mx-auto pt-3 pb-3"
+								style="padding: 0%; border: none; width: 75%;">
+								<div class="row g-0 py-4" >
+									<div class="imgSec col-12 col-md-5 d-flex"
+										style="position: relative; height: 25vh;">
+										<div class="imgHero my-auto bg-image"
+											style="transform: translateX(-10%); width: 100%; height: 100%">
 
-										<p class="card-text">
-											ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង <br />
-											​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
-										</p>
-										<a
-											href="#!"
-											class="card-footer btn btn-danger"
-											>ADD TO CART</a
-										>
-										<!-- BUTTOM MODAL -->
-										<button
-											type="button"
-											class="card-footer btn btn-warning mt-3"
-											data-bs-toggle="modal"
-											data-bs-target="#exampleModal"
-										>
-											Details
-										</button>
-										<!--// BUTTOM MODAL -->
+											<img src="Drink/Alcohol Beverage Cocktail Cold Drink Glass Ice.jpg"
+												alt="Alcohol Beverage Cocktail Cold Drink Glass Ice" class="w-100">
+										</div>
 									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="col-md-3">
-								<div class="card shadow-drop-2-center m-2 BLUR-menu HCmenu">
-									<img
-										src="img/2.png"
-										class="card-img-top"
-										alt="Fissure in Sandstone"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">
-											<span class="fs-2">Zucchini Chips </span> <br /><span
-												class="text-warning"
-												>Price</span
-											>
-											$20
-										</h5>
-										<p class="card-text">
-											ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង <br />
-											​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
-										</p>
-										<a
-											href="#!"
-											class="card-footer btn btn-danger"
-											>ADD TO CART</a
-										>
-										<!-- BUTTOM MODAL -->
-										<button
-											type="button"
-											class="card-footer btn btn-warning mt-3"
-											data-bs-toggle="modal"
-											data-bs-target="#exampleModal"
-										>
-											Details
-										</button>
-										<!--// BUTTOM MODAL -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="col-md-3">
-								<div class="card shadow-drop-2-center M-Col BLUR-menu HCmenu">
-									<img
-										src="img/3.png"
-										class="card-img-top"
-										alt="Fissure in Sandstone"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">
-											<span class="fs-2">Fruity Fun Skewers </span> <br /><span
-												class="text-warning"
-												>Price</span
-											>
-											$35
-										</h5>
-										<p class="card-text">
-											ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង <br />
-											​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
-										</p>
-										<a
-											href="#!"
-											class="card-footer btn btn-danger"
-											>ADD TO CART</a
-										>
-										<!-- BUTTOM MODAL -->
-										<button
-											type="button"
-											class="card-footer btn btn-warning mt-3"
-											data-bs-toggle="modal"
-											data-bs-target="#exampleModal"
-										>
-											Details
-										</button>
-										<!--// BUTTOM MODAL -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="col-md-3">
-								<div class="card shadow-drop-2-center m-2 BLUR-menu HCmenu">
-									<img
-										src="img/4.png"
-										class="card-img-top"
-										alt="Fissure in Sandstone"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">
-											<span class="fs-2">Ants on a Log </span> <br /><span
-												class="text-warning"
-												>Price</span
-											>
-											$25
-										</h5>
-										<p class="card-text">
-											ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង <br />
-											​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
-										</p>
-										<a
-											href="#!"
-											class="card-footer btn btn-danger"
-											>ADD TO CART</a
-										>
-										<!-- BUTTOM MODAL -->
-										<button
-											type="button"
-											class="card-footer btn btn-warning mt-3"
-											data-bs-toggle="modal"
-											data-bs-target="#exampleModal"
-										>
-											Details
-										</button>
-										<!--// BUTTOM MODAL -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="col-md-3">
-								<div class="card shadow-drop-2-center m-2 BLUR-menu HCmenu">
-									<img
-										src="img/5.png"
-										class="card-img-top"
-										alt="Fissure in Sandstone"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">
-											<span class="fs-2">Baked Kale Chips </span> <br /><span
-												class="text-warning"
-												>Price</span
-											>
-											$30
-										</h5>
-										<p class="card-text">
-											ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង <br />
-											​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
-										</p>
-										<a
-											href="#!"
-											class="card-footer btn btn-danger"
-											>ADD TO CART</a
-										>
-										<!-- BUTTOM MODAL -->
-										<button
-											type="button"
-											class="card-footer btn btn-warning mt-3"
-											data-bs-toggle="modal"
-											data-bs-target="#exampleModal"
-										>
-											Details
-										</button>
-										<!--// BUTTOM MODAL -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="col-md-3">
-								<div class="card shadow-drop-2-center m-2 BLUR-menu HCmenu">
-									<img
-										src="img/6.png"
-										class="card-img-top"
-										alt="Fissure in Sandstone"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">
-											<span class="fs-2">Granola Bars </span> <br /><span
-												class="text-warning"
-												>Price</span
-											>$50
-										</h5>
-										<p class="card-text">
-											ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង <br />
-											​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
-										</p>
-										<a
-											href="#!"
-											class="card-footer btn btn-danger"
-											>ADD TO CART</a
-										>
-										<!-- BUTTOM MODAL -->
-										<button
-											type="button"
-											class="card-footer btn btn-warning mt-3"
-											data-bs-toggle="modal"
-											data-bs-target="#exampleModal"
-										>
-											Details
-										</button>
-										<!--// BUTTOM MODAL -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="col-md-3">
-								<div class="card shadow-drop-2-center m-2 BLUR-menu HCmenu">
-									<img
-										src="img/7.png"
-										class="card-img-top"
-										alt="Fissure in Sandstone"
-									/>
-									<div class="card-body">
-										<h5 class="card-title">
-											<span class="fs-2">Kettle Corn </span> <br /><span
-												class="text-warning"
-												>Price</span
-											>
-											$40
-										</h5>
-										<p class="card-text">
-											ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង <br />
-											​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
-										</p>
-										<a
-											href="#!"
-											class="card-footer btn btn-danger"
-											>ADD TO CART</a
-										>
-										<!-- BUTTOM MODAL -->
-										<button
-											type="button"
-											class="card-footer btn btn-warning mt-3"
-											data-bs-toggle="modal"
-											data-bs-target="#exampleModal"
-										>
-											Details
-										</button>
-										<!--// BUTTOM MODAL -->
+									<div class="col-12 col-md-7 py-3 px-md-1 px-1">
+										<div class="card-body my-auto">
+											<h3 class="card-title">Alcohol Beverage Cocktail</h5>
+												<p class="card-text " style="margin-top: 2%;">
+													ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង ​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
+												</p>
+												<div class="buttonCard" style="margin-top: 3%;">
+													<button class="btn btn_slide-primary btn_slide col-md-3 mt-1 mt-md-0 "
+														type="submit">Get
+														Now
+													</button>
+												</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<a
-						class="carousel-control-prev bg-transparent w-aut"
-						href="#recipeCarousel"
-						role="button"
-						data-bs-slide="prev"
-					>
-						<span
-							class="carousel-control-prev-icon"
-							aria-hidden="true"
-						></span>
-					</a>
-					<a
-						class="carousel-control-next bg-transparent w-aut"
-						href="#recipeCarousel"
-						role="button"
-						data-bs-slide="next"
-					>
-						<span
-							class="carousel-control-next-icon"
-							aria-hidden="true"
-						></span>
-					</a>
-				</div>
-			</div>
-		</div>
-		<!-- MODAL DETAILS CAROUSEL MENU -->
-		<!-- 1- MENU -->
-		<div
-			class="modal fade"
-			id="exampleModal"
-			tabindex="-1"
-			aria-labelledby="exampleModalLabel"
-			aria-hidden="true"
-			data-bs-backdrop="static"
-			data-bs-keyboard="false"
-		>
-			<div
-				class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
-			>
-				<div class="modal-content">
-					<div class="modal-header text-light bg-info">
-						<h5
-							class="modal-title"
-							id="exampleModalLabel"
-						>
-							Choose a taste
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body"></div>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sweet
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sour
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Salty
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Spicy
-						</li>
-						<div class="modal-footer">
-							<a
-								href="#!"
-								class="btn btn-danger"
-								>ADD TO CART</a
-							>
-						</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- 2- MENU -->
-		<div
-			class="modal fade"
-			id="exampleModal"
-			tabindex="-1"
-			aria-labelledby="exampleModalLabel"
-			aria-hidden="true"
-			data-bs-backdrop="static"
-			data-bs-keyboard="false"
-		>
-			<div
-				class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
-			>
-				<div class="modal-content">
-					<div class="modal-header text-light bg-info">
-						<h5
-							class="modal-title"
-							id="exampleModalLabel"
-						>
-							Choose a taste
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body"></div>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sweet
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sour
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Salty
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Spicy
-						</li>
-						<div class="modal-footer">
-							<a
-								href="#!"
-								class="btn btn-danger"
-								>ADD TO CART</a
-							>
-						</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- 3- MENU -->
-		<div
-			class="modal fade"
-			id="exampleModal"
-			tabindex="-1"
-			aria-labelledby="exampleModalLabel"
-			aria-hidden="true"
-			data-bs-backdrop="static"
-			data-bs-keyboard="false"
-		>
-			<div
-				class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
-			>
-				<div class="modal-content">
-					<div class="modal-header text-light bg-info">
-						<h5
-							class="modal-title"
-							id="exampleModalLabel"
-						>
-							Choose a taste
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body"></div>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sweet
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sour
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Salty
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Spicy
-						</li>
-						<div class="modal-footer">
-							<a
-								href="#!"
-								class="btn btn-danger"
-								>ADD TO CART</a
-							>
-						</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- 4- MENU -->
-		<div
-			class="modal fade"
-			id="exampleModal"
-			tabindex="-1"
-			aria-labelledby="exampleModalLabel"
-			aria-hidden="true"
-			data-bs-backdrop="static"
-			data-bs-keyboard="false"
-		>
-			<div
-				class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
-			>
-				<div class="modal-content">
-					<div class="modal-header text-light bg-info">
-						<h5
-							class="modal-title"
-							id="exampleModalLabel"
-						>
-							Choose a taste
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body"></div>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sweet
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sour
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Salty
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Spicy
-						</li>
-						<div class="modal-footer">
-							<a
-								href="#!"
-								class="btn btn-danger"
-								>ADD TO CART</a
-							>
-						</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- 5- MENU -->
-		<div
-			class="modal fade"
-			id="exampleModal"
-			tabindex="-1"
-			aria-labelledby="exampleModalLabel"
-			aria-hidden="true"
-			data-bs-backdrop="static"
-			data-bs-keyboard="false"
-		>
-			<div
-				class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
-			>
-				<div class="modal-content">
-					<div class="modal-header text-light bg-info">
-						<h5
-							class="modal-title"
-							id="exampleModalLabel"
-						>
-							Choose a taste
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body"></div>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sweet
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sour
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Salty
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Spicy
-						</li>
-						<div class="modal-footer">
-							<a
-								href="#!"
-								class="btn btn-danger"
-								>ADD TO CART</a
-							>
-						</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- 6- MENU -->
-		<div
-			class="modal fade"
-			id="exampleModal"
-			tabindex="-1"
-			aria-labelledby="exampleModalLabel"
-			aria-hidden="true"
-			data-bs-backdrop="static"
-			data-bs-keyboard="false"
-		>
-			<div
-				class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
-			>
-				<div class="modal-content">
-					<div class="modal-header text-light bg-info">
-						<h5
-							class="modal-title"
-							id="exampleModalLabel"
-						>
-							Choose a taste
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body"></div>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sweet
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sour
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Salty
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Spicy
-						</li>
-						<div class="modal-footer">
-							<a
-								href="#!"
-								class="btn btn-danger"
-								>ADD TO CART</a
-							>
-						</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- 7- MENU -->
-		<div
-			class="modal fade"
-			id="exampleModal"
-			tabindex="-1"
-			aria-labelledby="exampleModalLabel"
-			aria-hidden="true"
-			data-bs-backdrop="static"
-			data-bs-keyboard="false"
-		>
-			<div
-				class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
-			>
-				<div class="modal-content">
-					<div class="modal-header text-light bg-info">
-						<h5
-							class="modal-title"
-							id="exampleModalLabel"
-						>
-							Choose a taste
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body"></div>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sweet
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Sour
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Salty
-						</li>
-						<li class="list-group-item">
-							<input
-								class="form-check-input me-1"
-								type="checkbox"
-								value=""
-								aria-label="..."
-							/>
-							Spicy
-						</li>
-						<div class="modal-footer">
-							<a
-								href="#!"
-								class="btn btn-danger"
-								>ADD TO CART</a
-							>
-						</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- //MODAL DETAILS CAROUSEL MENU -->
-		<!-- || -->
-		<!-- // CAROUSEL MENU CARS -->
-		<!-- MENU LIST ITEMS -->
-		<div
-			class="container-fluid pt-3"
-			style="background-color: #2c2f36"
-		>
-			<h1 class="text-center m-3 text-warning">MENU LIST</h1>
-			<div class="row row-cols-md-4">
-				<div class="col-4">
-					<!-- 01-->
-					<div class="card our-team-main">
-						<div class="team-front">
-							<img
-								src="Breakfast/Cinnamon Rolls Bread Spiral Baking Pastries Tasty.jpg"
-								class="img-fluid"
-							/>
-							<p class="text-danger fw-bolder mb-0">In stock</p>
-						</div>
+					<!-- Item 02 -->
+					<div class="carousel-item"  >
+						<div class="container my-4">
+							<div class="card card_slide mb-3 filter shadow-lg mx-auto pt-3 pb-3"
+								style="padding: 0%; border: none; width: 75%;">
+								<div class="row g-0 py-4" >
+									<div class="imgSec col-12 col-md-5 d-flex"
+										style="position: relative; height: 25vh;">
+										<div class="imgHero my-auto bg-image"
+											style="transform: translateX(-10%); width: 100%; height: 100%">
 
-						<div class="team-back text-center">
-							<p>Cinnamon Rolls</p>
-							<a
-								href="#breakfirst05"
-								class="btn"
-								style="background-color: #ff0000"
-								>Check</a
-							>
+											<img src="Breakfast/Toast Vegan Sandwich.jpg"
+												alt="Toast Vegan Sandwich" class="w-100">
+										</div>
+									</div>
+									<div class="col-12 col-md-7 py-3 px-md-1 px-1">
+										<div class="card-body my-auto">
+											<h3 class="card-title">Toast Vegan Sandwich</h5>
+												<p class="card-text " style="margin-top: 2%;">
+													ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង ​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
+												</p>
+												<div class="buttonCard" style="margin-top: 3%;">
+													<button class="btn btn_slide-primary btn_slide col-md-3 mt-1 mt-md-0 w-auto"
+														type="submit">Get
+														Now
+													</button>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-4">
-					<!-- 02-->
-					<div class="card our-team-main">
-						<div class="team-front">
-							<img
-								src="Breakfast/Dishes Bread Slices.jpg"
-								class="img-fluid"
-							/>
-							<p class="text-danger fw-bolder mb-0">In stock</p>
-						</div>
+					<!-- Item 03 -->
+					<div class="carousel-item"  >
+						<div class="container my-4">
+							<div class="card card_slide mb-3 filter shadow-lg mx-auto pt-3 pb-3"
+								style="padding: 0%; border: none; width: 75%;">
+								<div class="row g-0 py-4" >
+									<div class="imgSec col-12 col-md-5 d-flex"
+										style="position: relative; height: 25vh;">
+										<div class="imgHero my-auto bg-image"
+											style="transform: translateX(-10%); width: 100%; height: 100%">
 
-						<div class="team-back text-center">
-							<p>Dishes Bread Slices</p>
-							<a
-								href="#breakfirst07"
-								class="btn"
-								style="background-color: #ff0000"
-								>Check</a
-							>
+											<img src="Drink/Wine Red Wine.jpg"
+												alt="Wine Red Wine" class="w-100">
+										</div>
+									</div>
+									<div class="col-12 col-md-7 py-3 px-md-1 px-1">
+										<div class="card-body my-auto">
+											<h3 class="card-title">Wine Red</h5>
+												<p class="card-text " style="margin-top: 2%;">
+													ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង ​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
+												</p>
+												<div class="buttonCard" style="margin-top: 3%;">
+													<button class="btn btn_slide-primary btn_slide col-md-3 mt-1 mt-md-0 w-auto"
+														type="submit">Get
+														Now
+													</button>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-4">
-					<!-- 03-->
-					<div class="card our-team-main">
-						<div class="team-front">
-							<img
-								src="Breakfast/Healthy Hummus Spread Whole Wheat Bread.jpg"
-								class="img-fluid"
-							/>
-							<p class="text-danger fw-bolder mb-0">In stock</p>
-						</div>
+					<!-- Item 04 -->
+					<div class="carousel-item"  >
+						<div class="container my-4">
+							<div class="card card_slide mb-3 filter shadow-lg mx-auto pt-3 pb-3"
+								style="padding: 0%; border: none; width: 75%;">
+								<div class="row g-0 py-4" >
+									<div class="imgSec col-12 col-md-5 d-flex"
+										style="position: relative; height: 25vh;">
+										<div class="imgHero my-auto bg-image"
+											style="transform: translateX(-10%); width: 100%; height: 100%">
 
-						<div class="team-back text-center">
-							<p>Hummus Spread</p>
-							<a
-								href="#breakfirst02"
-								class="btn"
-								style="background-color: #ff0000"
-								>Check</a
-							>
+											<img src="Breakfast/Cinnamon Rolls Bread Spiral Baking Pastries Tasty.jpg"
+												alt="Cinnamon Rolls Bread Spiral Baking Pastries Tasty" class="w-100">
+										</div>
+									</div>
+									<div class="col-12 col-md-7 py-3 px-md-1 px-1">
+										<div class="card-body my-auto">
+											<h3 class="card-title">Cinnamon </h5>
+												<p class="card-text " style="margin-top: 2%;">
+													ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង ​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
+												</p>
+												<div class="buttonCard" style="margin-top: 3%;">
+													<button class="btn btn_slide-primary btn_slide col-md-3 mt-1 mt-md-0 w-auto"
+														type="submit">Get
+														Now
+													</button>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-4">
-					<!-- 04-->
-					<div class="card our-team-main">
-						<div class="team-front">
-							<img
-								src="Breakfast/Open Sandwich Bread Bread And Butter Cheese Ham.jpg"
-								class="img-fluid"
-							/>
-							<p class="text-danger fw-bolder mb-0">In stock</p>
-						</div>
+					<!-- Item 05 -->
+					<div class="carousel-item"  >
+						<div class="container my-4">
+							<div class="card card_slide mb-3 filter shadow-lg mx-auto pt-3 pb-3"
+								style="padding: 0%; border: none; width: 75%;">
+								<div class="row g-0 py-4" >
+									<div class="imgSec col-12 col-md-5 d-flex"
+										style="position: relative; height: 25vh;">
+										<div class="imgHero my-auto bg-image"
+											style="transform: translateX(-10%); width: 100%; height: 100%">
 
-						<div class="team-back text-center">
-							<p>Sandwich Bread</p>
-							<a
-								href="#breakfirst04"
-								class="btn"
-								style="background-color: #ff0000"
-								>Check</a
-							>
+											<img src="Drink/Orange Juice Vitamin C Healthy Fruit Citrus.jpg"
+												alt="Orange Juice Vitamin C Healthy Fruit Citrus" class="w-100">
+										</div>
+									</div>
+									<div class="col-12 col-md-7 py-3 px-md-1 px-1">
+										<div class="card-body my-auto">
+											<h3 class="card-title">Orange Juice Vitamin C</h5>
+												<p class="card-text " style="margin-top: 2%;">
+													ញុំាទៅដឹងតែឆ្ងាញ់​ម៉ង ​បើ​មិន​ឆ្ងាញ់​ក៏យកលុយដែរ
+												</p>
+												<div class="buttonCard" style="margin-top: 3%;">
+													<button class="btn btn_slide-primary btn_slide col-md-3 mt-1 mt-md-0 w-auto"
+														type="submit">Get
+														Now
+													</button>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- //MENU LIST ITEMS -->
+		<!-- //SLIDE MENU LIST ITEMS -->
+		<!-- LIST -->
+
+
+
+
+		
+		<!-- //LIST -->
+
 		<!-- TYPE OF FOODS -->
 
 		<!-- BREAKFIRST -->
-
-		<section
-			class="pt-5 bg-light bg-opacity-50"
-			id="BREAKFAST"
+		<section class="pt-5 w-auto" id="BREAKFAST"
+		
 		>
-			<h1
-				class="GRADIENT-ON"
-				class="text-center"
-			>
-				Breakfast
+			<h1 class="text-center text-light" data-aos="fade-up" data-aos-duration="700">
+				BREAKFIRST
 			</h1>
 			<div class="container py-5">
 				<!-- 01 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst01"
-				>
+				<div class="row justify-content-center mb-3 " data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst01">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Pancakes Maple Syrup Raspberries.jpg"
-												class="w-100"
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Pancakes Maple Syrup Raspberries.jpg" class="w-100"
 												alt="Pancakes Maple Syrup Raspberries"
-												id="Pancakes_Maple_SyrupRaspberries"
-											/>
+												id="Pancakes_Maple_SyrupRaspberries" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1254,9 +360,7 @@
 											<span>Large $19.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$9.99</h4>
 											<span class="text-danger"><s>$13.99</s></span>
@@ -1264,16 +368,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1284,31 +382,20 @@
 					</div>
 				</div>
 				<!-- 02 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst02"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst02">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Healthy Hummus Spread Whole Wheat Bread.jpg"
-												class="w-100"
-												alt="Healthy Hummus Spread Whole Wheat Bread"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Healthy Hummus Spread Whole Wheat Bread.jpg"
+												class="w-100" alt="Healthy Hummus Spread Whole Wheat Bread" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1335,9 +422,7 @@
 											<span>Large $14.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$12.99</h4>
 											<span class="text-danger"><s>$14.99</s></span>
@@ -1345,16 +430,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1365,33 +444,20 @@
 					</div>
 				</div>
 				<!-- 03 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-
-					id="breakfirst04"
-
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst04">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Tomatoes Eggs Toast Dish Plate Food Fresh.jpg"
-												class="w-100"
-												alt="Tomatoes Eggs Toast Dish Plate Food Fresh"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Tomatoes Eggs Toast Dish Plate Food Fresh.jpg"
+												class="w-100" alt="Tomatoes Eggs Toast Dish Plate Food Fresh" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1418,9 +484,7 @@
 											<span>Large $19.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -1428,16 +492,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1448,31 +506,20 @@
 					</div>
 				</div>
 				<!-- 04 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst04"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst04">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card  rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Open Sandwich Bread Bread And Butter Cheese Ham.jpg"
-												class="w-100"
-												alt="Open Sandwich Bread Bread And Butter Cheese Ham"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Open Sandwich Bread Bread And Butter Cheese Ham.jpg"
+												class="w-100" alt="Open Sandwich Bread Bread And Butter Cheese Ham" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1499,9 +546,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$2.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -1509,16 +554,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1529,31 +568,20 @@
 					</div>
 				</div>
 				<!-- 05 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst05"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst05">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Toast Food Fried Eggs Eggs Meal Bread.jpg"
-												class="w-100"
-												alt="Toast Food Fried Eggs Eggs Meal Bread"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Toast Food Fried Eggs Eggs Meal Bread.jpg" class="w-100"
+												alt="Toast Food Fried Eggs Eggs Meal Bread" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1580,9 +608,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$1.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -1590,16 +616,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1610,32 +630,21 @@
 					</div>
 				</div>
 				<!-- 06 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst04"
-
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst04">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Cinnamon Rolls Bread Spiral Baking Pastries Tasty.jpg"
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Cinnamon Rolls Bread Spiral Baking Pastries Tasty.jpg"
 												class="w-100"
-												alt=" Cinnamon Rolls Bread Spiral Baking Pastries Tasty"
-											/>
+												alt=" Cinnamon Rolls Bread Spiral Baking Pastries Tasty" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1662,9 +671,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -1672,16 +679,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1692,31 +693,19 @@
 					</div>
 				</div>
 				<!-- 07 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst07"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst07">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card  rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Bread Egg.jpg"
-												class="w-100"
-												alt="Bread Egg"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Bread Egg.jpg" class="w-100" alt="Bread Egg" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1743,9 +732,7 @@
 											<span>Large $5.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -1753,16 +740,11 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm waves-effect"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm waves-effect" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2 waves-effect"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2 waves-effect"
+												type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1773,32 +755,20 @@
 					</div>
 				</div>
 				<!-- 08 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst04"
-
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst04">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card  rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Dishes Bread Slices.jpg"
-												class="w-100"
-												alt="Dishes Bread Slices"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Dishes Bread Slices.jpg" class="w-100"
+												alt="Dishes Bread Slices" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1825,9 +795,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$9.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -1835,16 +803,11 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm waves-effect"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm waves-effect" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2 waves-effect"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2 waves-effect"
+												type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1855,32 +818,20 @@
 					</div>
 				</div>
 				<!-- 09 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst04"
-
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst04">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card  rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Salmon Fish Seafood Veggies Salad Meal Dish.jpg"
-												class="w-100"
-												alt="Salmon Fish Seafood Veggies Salad Meal Dish"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Salmon Fish Seafood Veggies Salad Meal Dish.jpg"
+												class="w-100" alt="Salmon Fish Seafood Veggies Salad Meal Dish" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1907,9 +858,7 @@
 											<span>Large $49.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$29.99</h4>
 											<span class="text-danger"><s>$1.99</s></span>
@@ -1917,16 +866,11 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2 waves-effect"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2 waves-effect"
+												type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -1937,32 +881,20 @@
 					</div>
 				</div>
 				<!-- 10 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-					id="breakfirst04"
-
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700"
+					id="breakfirst04">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Toast Vegan Sandwich.jpg"
-												class="w-100"
-												alt="Toast Vegan Sandwich"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Toast Vegan Sandwich.jpg" class="w-100"
+												alt="Toast Vegan Sandwich" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -1989,9 +921,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -1999,16 +929,11 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2 waves-effect"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2 waves-effect"
+												type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2018,46 +943,31 @@
 						</div>
 					</div>
 				</div>
-			</div>
+
 		</section>
 		<!-- // BREAKFIRST -->
 		<!-- LUNCH -->
 
-		<section class="bg-light bg-opacity-50">
-			<h1
-				class="GRADIENT-ON"
-				class="text-center"
-				id="LUNCH"
-			>
+		<section class=" w-auto" id="LUNCH">
+			<h1  class="text-center text-light" data-aos="fade-up" data-aos-duration="700">
 				LUNCH
 			</h1>
 
 			<div class="container py-5">
 				<!-- 01 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Pancakes Maple Syrup Raspberries.jpg"
-												class="w-100"
-												alt="Pancakes Maple Syrup Raspberries"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Pancakes Maple Syrup Raspberries.jpg" class="w-100"
+												alt="Pancakes Maple Syrup Raspberries" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2084,9 +994,7 @@
 											<span>Large $19.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$9.99</h4>
 											<span class="text-danger"><s>$13.99</s></span>
@@ -2094,16 +1002,11 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm waves-effect"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm waves-effect" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2 waves-effect"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2 waves-effect"
+												type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2114,30 +1017,19 @@
 					</div>
 				</div>
 				<!-- 02 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Healthy Hummus Spread Whole Wheat Bread.jpg"
-												class="w-100"
-												alt="Healthy Hummus Spread Whole Wheat Bread"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Healthy Hummus Spread Whole Wheat Bread.jpg"
+												class="w-100" alt="Healthy Hummus Spread Whole Wheat Bread" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2164,9 +1056,7 @@
 											<span>Large $14.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$12.99</h4>
 											<span class="text-danger"><s>$14.99</s></span>
@@ -2174,16 +1064,11 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm waves-effect"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm waves-effect" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2 waves-effect"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2 waves-effect"
+												type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2194,30 +1079,19 @@
 					</div>
 				</div>
 				<!-- 03 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Tomatoes Eggs Toast Dish Plate Food Fresh.jpg"
-												class="w-100"
-												alt="Tomatoes Eggs Toast Dish Plate Food Fresh"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Tomatoes Eggs Toast Dish Plate Food Fresh.jpg"
+												class="w-100" alt="Tomatoes Eggs Toast Dish Plate Food Fresh" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2244,9 +1118,7 @@
 											<span>Large $19.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -2254,16 +1126,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2274,30 +1140,19 @@
 					</div>
 				</div>
 				<!-- 04 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Open Sandwich Bread Bread And Butter Cheese Ham.jpg"
-												class="w-100"
-												alt="Open Sandwich Bread Bread And Butter Cheese Ham"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Open Sandwich Bread Bread And Butter Cheese Ham.jpg"
+												class="w-100" alt="Open Sandwich Bread Bread And Butter Cheese Ham" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2324,9 +1179,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$2.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -2334,16 +1187,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2354,30 +1201,19 @@
 					</div>
 				</div>
 				<!-- 05 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Toast Food Fried Eggs Eggs Meal Bread.jpg"
-												class="w-100"
-												alt="Toast Food Fried Eggs Eggs Meal Bread"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Toast Food Fried Eggs Eggs Meal Bread.jpg" class="w-100"
+												alt="Toast Food Fried Eggs Eggs Meal Bread" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2404,9 +1240,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$1.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -2414,16 +1248,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2434,30 +1262,20 @@
 					</div>
 				</div>
 				<!-- 06 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Cinnamon Rolls Bread Spiral Baking Pastries Tasty.jpg"
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Cinnamon Rolls Bread Spiral Baking Pastries Tasty.jpg"
 												class="w-100"
-												alt=" Cinnamon Rolls Bread Spiral Baking Pastries Tasty"
-											/>
+												alt=" Cinnamon Rolls Bread Spiral Baking Pastries Tasty" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2484,9 +1302,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -2494,16 +1310,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2514,30 +1324,18 @@
 					</div>
 				</div>
 				<!-- 07 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Bread Egg.jpg"
-												class="w-100"
-												alt="Bread Egg"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Bread Egg.jpg" class="w-100" alt="Bread Egg" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2564,9 +1362,7 @@
 											<span>Large $5.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -2574,16 +1370,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2594,30 +1384,19 @@
 					</div>
 				</div>
 				<!-- 08 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Dishes Bread Slices.jpg"
-												class="w-100"
-												alt="Dishes Bread Slices"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Dishes Bread Slices.jpg" class="w-100"
+												alt="Dishes Bread Slices" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2644,9 +1423,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$9.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -2654,16 +1431,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2674,30 +1445,19 @@
 					</div>
 				</div>
 				<!-- 09 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Salmon Fish Seafood Veggies Salad Meal Dish.jpg"
-												class="w-100"
-												alt="Salmon Fish Seafood Veggies Salad Meal Dish"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Salmon Fish Seafood Veggies Salad Meal Dish.jpg"
+												class="w-100" alt="Salmon Fish Seafood Veggies Salad Meal Dish" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2724,9 +1484,7 @@
 											<span>Large $49.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$29.99</h4>
 											<span class="text-danger"><s>$1.99</s></span>
@@ -2734,16 +1492,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2754,30 +1506,19 @@
 					</div>
 				</div>
 				<!-- 10 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Toast Vegan Sandwich.jpg"
-												class="w-100"
-												alt="Toast Vegan Sandwich"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Toast Vegan Sandwich.jpg" class="w-100"
+												alt="Toast Vegan Sandwich" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2804,9 +1545,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -2814,16 +1553,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2837,41 +1570,26 @@
 		</section>
 		<!-- // LUNCH-->
 		<!-- DINNER -->
-		<section class="bg-light bg-opacity-50">
-			<h1
-				class="GRADIENT-ON"
-				id="DINNER"
-				class="text-center"
-			>
+		<section class=" w-auto" id="DINNER">
+			<h1  class="text-center text-light" data-aos="fade-up" data-aos-duration="700">
 				DINNER
 			</h1>
 
 			<div class="container py-5">
 				<!-- 01 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Pancakes Maple Syrup Raspberries.jpg"
-												class="w-100"
-												alt="Pancakes Maple Syrup Raspberries"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Pancakes Maple Syrup Raspberries.jpg" class="w-100"
+												alt="Pancakes Maple Syrup Raspberries" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2898,9 +1616,7 @@
 											<span>Large $19.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$9.99</h4>
 											<span class="text-danger"><s>$13.99</s></span>
@@ -2908,16 +1624,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -2928,30 +1638,19 @@
 					</div>
 				</div>
 				<!-- 02 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Healthy Hummus Spread Whole Wheat Bread.jpg"
-												class="w-100"
-												alt="Healthy Hummus Spread Whole Wheat Bread"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Healthy Hummus Spread Whole Wheat Bread.jpg"
+												class="w-100" alt="Healthy Hummus Spread Whole Wheat Bread" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -2978,9 +1677,7 @@
 											<span>Large $14.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$12.99</h4>
 											<span class="text-danger"><s>$14.99</s></span>
@@ -2988,16 +1685,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3008,30 +1699,19 @@
 					</div>
 				</div>
 				<!-- 03 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Tomatoes Eggs Toast Dish Plate Food Fresh.jpg"
-												class="w-100"
-												alt="Tomatoes Eggs Toast Dish Plate Food Fresh"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Tomatoes Eggs Toast Dish Plate Food Fresh.jpg"
+												class="w-100" alt="Tomatoes Eggs Toast Dish Plate Food Fresh" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3058,9 +1738,7 @@
 											<span>Large $19.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3068,16 +1746,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3088,30 +1760,19 @@
 					</div>
 				</div>
 				<!-- 04 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Open Sandwich Bread Bread And Butter Cheese Ham.jpg"
-												class="w-100"
-												alt="Open Sandwich Bread Bread And Butter Cheese Ham"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Open Sandwich Bread Bread And Butter Cheese Ham.jpg"
+												class="w-100" alt="Open Sandwich Bread Bread And Butter Cheese Ham" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3138,9 +1799,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$2.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3148,16 +1807,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3168,30 +1821,19 @@
 					</div>
 				</div>
 				<!-- 05 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Toast Food Fried Eggs Eggs Meal Bread.jpg"
-												class="w-100"
-												alt="Toast Food Fried Eggs Eggs Meal Bread"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Toast Food Fried Eggs Eggs Meal Bread.jpg" class="w-100"
+												alt="Toast Food Fried Eggs Eggs Meal Bread" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3218,9 +1860,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$1.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3228,16 +1868,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3248,30 +1882,20 @@
 					</div>
 				</div>
 				<!-- 06 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Cinnamon Rolls Bread Spiral Baking Pastries Tasty.jpg"
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Cinnamon Rolls Bread Spiral Baking Pastries Tasty.jpg"
 												class="w-100"
-												alt=" Cinnamon Rolls Bread Spiral Baking Pastries Tasty"
-											/>
+												alt=" Cinnamon Rolls Bread Spiral Baking Pastries Tasty" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3298,9 +1922,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3308,16 +1930,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3328,30 +1944,18 @@
 					</div>
 				</div>
 				<!-- 07 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Bread Egg.jpg"
-												class="w-100"
-												alt="Bread Egg"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Bread Egg.jpg" class="w-100" alt="Bread Egg" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3378,9 +1982,7 @@
 											<span>Large $5.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3388,16 +1990,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3408,30 +2004,19 @@
 					</div>
 				</div>
 				<!-- 08 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Dishes Bread Slices.jpg"
-												class="w-100"
-												alt="Dishes Bread Slices"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Dishes Bread Slices.jpg" class="w-100"
+												alt="Dishes Bread Slices" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3458,9 +2043,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$9.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3468,16 +2051,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3488,30 +2065,19 @@
 					</div>
 				</div>
 				<!-- 09 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Salmon Fish Seafood Veggies Salad Meal Dish.jpg"
-												class="w-100"
-												alt="Salmon Fish Seafood Veggies Salad Meal Dish"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Salmon Fish Seafood Veggies Salad Meal Dish.jpg"
+												class="w-100" alt="Salmon Fish Seafood Veggies Salad Meal Dish" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3538,9 +2104,7 @@
 											<span>Large $49.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$29.99</h4>
 											<span class="text-danger"><s>$1.99</s></span>
@@ -3548,16 +2112,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3568,30 +2126,19 @@
 					</div>
 				</div>
 				<!-- 10 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Breakfast/Toast Vegan Sandwich.jpg"
-												class="w-100"
-												alt="Toast Vegan Sandwich"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Breakfast/Toast Vegan Sandwich.jpg" class="w-100"
+												alt="Toast Vegan Sandwich" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3618,9 +2165,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3628,16 +2173,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3651,41 +2190,25 @@
 		</section>
 		<!-- // DINNER -->
 		<!-- DRINK -->
-		<section class="bg-light bg-opacity-50">
-			<h1
-				class="GRADIENT-ON"
-				id="DRINK"
-				class="text-center"
-			>
+		<section class=" w-auto" id="DRINK">
+			<h1  class="text-center text-light " data-aos="fade-up" data-aos-duration="700">
 				DRINK
 			</h1>
 
-			<div class="container">
+			<div class="container py-5">
 				<!-- 01 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Cup Tee Porcelain.jpg"
-												class="w-100"
-												alt=""
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Cup Tee Porcelain.jpg" class="w-100" alt="" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3712,9 +2235,7 @@
 											<span>Large $2.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$0.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3722,16 +2243,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3742,30 +2257,18 @@
 					</div>
 				</div>
 				<!-- 02 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Red Wine.jpg"
-												class="w-100"
-												alt="Red Wine"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Red Wine.jpg" class="w-100" alt="Red Wine" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3792,9 +2295,7 @@
 											<span>Large $49.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$49.99</h4>
 											<span class="text-danger"><s>$4.99</s></span>
@@ -3802,16 +2303,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3822,30 +2317,19 @@
 					</div>
 				</div>
 				<!-- 03 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Drink Soda Glasses.jpg"
-												class="w-100"
-												alt=" Drink Soda Glasses"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Drink Soda Glasses.jpg" class="w-100"
+												alt=" Drink Soda Glasses" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3872,9 +2356,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -3882,16 +2364,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3902,30 +2378,19 @@
 					</div>
 				</div>
 				<!-- 04 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Wine Red Wine.jpg"
-												class="w-100"
-												alt="Red Wine Glass Drink Alcohol Enjoyment"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Wine Red Wine.jpg" class="w-100"
+												alt="Red Wine Glass Drink Alcohol Enjoyment" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -3952,9 +2417,7 @@
 											<span>Large $99.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$99.99</h4>
 											<span class="text-danger"><s>$4.99</s></span>
@@ -3962,16 +2425,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -3982,30 +2439,18 @@
 					</div>
 				</div>
 				<!-- 05 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Tea Infuser Cup.jpg"
-												class="w-100"
-												alt=" Tea Infuser Cup"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Tea Infuser Cup.jpg" class="w-100" alt=" Tea Infuser Cup" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -4032,9 +2477,7 @@
 											<span>Large $2.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$1.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -4042,16 +2485,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -4062,30 +2499,19 @@
 					</div>
 				</div>
 				<!-- 06 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Alcohol Beverage Cocktail Cold Drink Glass Ice.jpg"
-												class="w-100"
-												alt=" Alcohol Beverage Cocktail Cold Drink Glass Ice"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Alcohol Beverage Cocktail Cold Drink Glass Ice.jpg"
+												class="w-100" alt=" Alcohol Beverage Cocktail Cold Drink Glass Ice" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -4112,9 +2538,7 @@
 											<span>Large $4.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$2.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -4122,16 +2546,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -4142,30 +2560,18 @@
 					</div>
 				</div>
 				<!-- 07 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Water Glass Ice.jpg"
-												class="w-100"
-												alt=" Water Glass Ice"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Water Glass Ice.jpg" class="w-100" alt=" Water Glass Ice" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -4192,9 +2598,7 @@
 											<span> <s>Large $0</s><br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$0.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -4202,16 +2606,10 @@
 										<h6 class="text-success">Small</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -4222,30 +2620,19 @@
 					</div>
 				</div>
 				<!-- 08 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Rum Alcohol Drink.jpg"
-												class="w-100"
-												alt=" Rum Alcohol Drink"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Rum Alcohol Drink.jpg" class="w-100"
+												alt=" Rum Alcohol Drink" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -4272,9 +2659,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$9.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -4282,16 +2667,10 @@
 										<h6 class="text-success">Large</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -4302,30 +2681,19 @@
 					</div>
 				</div>
 				<!-- 09 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Orange Juice Vitamin C Healthy Fruit Citrus.jpg"
-												class="w-100"
-												alt=" Orange Juice Vitamin C Healthy Fruit Citrus"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Orange Juice Vitamin C Healthy Fruit Citrus.jpg"
+												class="w-100" alt=" Orange Juice Vitamin C Healthy Fruit Citrus" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -4352,9 +2720,7 @@
 											<span>Large $49.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$29.99</h4>
 											<span class="text-danger"><s>$1.99</s></span>
@@ -4362,16 +2728,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -4382,30 +2742,19 @@
 					</div>
 				</div>
 				<!-- 10 -->
-				<div
-					class="row justify-content-center mb-3"
-					data-aos="fade-left"
-					data-aos-duration="700"
-				>
+				<div class="row justify-content-center mb-3" data-aos="fade-left" data-aos-duration="700">
 					<div class="col-md-12 col-xl-10">
-						<div class="card shadow-0 border rounded-3">
+						<div class="card rounded-3 bg-black">
 							<div class="card-body">
 								<div class="row">
 									<div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-										<div
-											class="bg-image hover-zoom ripple rounded ripple-surface"
-										>
-											<img
-												src="Drink/Beers Bottles Pack Beer Bottles Drink Alcohol.jpg"
-												class="w-100"
-												alt=" Beers Bottles Pack Beer Bottles Drink Alcohol"
-											/>
+										<div class="bg-image hover-zoom ripple rounded ripple-surface">
+											<img src="Drink/Beers Bottles Pack Beer Bottles Drink Alcohol.jpg"
+												class="w-100" alt=" Beers Bottles Pack Beer Bottles Drink Alcohol" />
 											<a href="#!">
 												<div class="hover-overlay">
-													<div
-														class="mask"
-														style="background-color: rgba(253, 253, 253, 0.15)"
-													></div>
+													<div class="mask"
+														style="background-color: rgba(253, 253, 253, 0.15)"></div>
 												</div>
 											</a>
 										</div>
@@ -4432,9 +2781,7 @@
 											<span>Large $9.99<br /></span>
 										</div>
 									</div>
-									<div
-										class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
-									>
+									<div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
 										<div class="d-flex flex-row align-items-center mb-1">
 											<h4 class="mb-1 me-1">$4.99</h4>
 											<span class="text-danger"><s>$0.00</s></span>
@@ -4442,16 +2789,10 @@
 										<h6 class="text-success">Meduim</h6>
 										<h6 class="text-success">Free Delivery</h6>
 										<div class="d-flex flex-column mt-4">
-											<button
-												class="btn btn-danger btn-sm"
-												type="button"
-											>
+											<button class="btn btn-danger btn-sm" type="button">
 												Details
 											</button>
-											<button
-												class="btn btn-outline-danger btn-sm mt-2"
-												type="button"
-											>
+											<button class="btn btn-outline-danger btn-sm mt-2" type="button">
 												Add to Cart
 											</button>
 										</div>
@@ -4464,85 +2805,56 @@
 			</div>
 		</section>
 		<!-- // DRINK -->
+	</div>
 		<!-- //TYPE OF FFOD -->
-		<div><a href="#TOP">GO TO TOP</a></div>
 		<!-- FOOTER -->
-		<footer class="bg-dark text-center text-white">
+		<footer class="bg-dark text-center text-white w-auto">
 			<!-- Grid container -->
 			<div class="container p-4 pb-0">
 				<!-- Section: Social media -->
 				<section class="mb-4">
 					<!-- Facebook -->
-					<a
-						class="btn btn-outline-light btn-floating m-1"
-						href="https://www.facebook.com/profile.php?id=100056896857156&mibextid=ZbWKwL"
-						target="_blank"
-						role="button"
-						><i class="fab fa-facebook-f"></i
-					></a>
+					<a class="btn btn-outline-light btn-floating m-1"
+						href="https://www.facebook.com/profile.php?id=100056896857156&mibextid=ZbWKwL" target="_blank"
+						role="button"><i class="fab fa-facebook-f"></i></a>
 
 					<!-- Google -->
-					<a
-						class="btn btn-outline-light btn-floating m-1"
-						href="https://teal-dieffenbachia-e30e1c.netlify.app/"
-						target="_blank"
-						role="button"
-						><i class="fab fa-google"></i
-					></a>
+					<a class="btn btn-outline-light btn-floating m-1"
+						href="https://teal-dieffenbachia-e30e1c.netlify.app/" target="_blank" role="button"><i
+							class="fab fa-google"></i></a>
 
 					<!-- Instagram -->
-					<a
-						class="btn btn-outline-light btn-floating m-1"
-						href="https://instagram.com/ream_ek?igshid=NTA5ZTk1NTc="
-						target="_blank"
-						role="button"
-						><i class="fab fa-instagram"></i
-					></a>
+					<a class="btn btn-outline-light btn-floating m-1"
+						href="https://instagram.com/ream_ek?igshid=NTA5ZTk1NTc=" target="_blank" role="button"><i
+							class="fab fa-instagram"></i></a>
 
 					<!-- TikTok -->
-					<a
-						class="btn btn-outline-light btn-floating m-1"
-						href="http://tiktok.com/@thereallyaa"
-						target="_blank"
-						role="button"
-						><i class="fab fa-tiktok"></i
-					></a>
+					<a class="btn btn-outline-light btn-floating m-1" href="http://tiktok.com/@thereallyaa"
+						target="_blank" role="button"><i class="fab fa-tiktok"></i></a>
 				</section>
 				<!-- Section: Social media -->
 			</div>
 			<!-- Grid container -->
 
 			<!-- Copyright -->
-			<div
-				class="text-center p-3"
-				style="background-color: rgba(0, 0, 0, 0.2)"
-			>
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
 				© 2023 Copyright:
-				<a
-					class="text-white"
-					href="https://teal-dieffenbachia-e30e1c.netlify.app/"
-					>SPTrestaurant</a
-				>
+				<a class="text-white" href="https://teal-dieffenbachia-e30e1c.netlify.app/">SPTrestaurant</a>
 			</div>
 			<!-- //Copyright -->
 		</footer>
 		<!-- //FOOTER -->
 		<!-- MDB -->
-		<script
-			type="text/javascript"
-			src="js/mdb.min.js"
-		></script>
+		<script type="text/javascript" src="js/mdb.min.js"></script>
 		<!-- Custom scripts -->
 		<script src="bootstrap.min.js"></script>
-		<script
-			type="text/javascript"
-			src="Index.js"
-		></script>
-		<!-- JAVASCRIPT MENU LIST ITEMS -->
+
+
 		<!-- //CDN JAVASCRIPT MENU LIST ITEMS -->
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();
 		</script>
 	</body>
+
 </html>
