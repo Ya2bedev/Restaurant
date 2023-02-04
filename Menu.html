@@ -23,6 +23,10 @@
 
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 	</head>
+	<!-- Back to top button -->
+	<a type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+		<i class="fas fa-arrow-up"></i>
+	</a>
 
 	<body class="BG_MENU w-auto">
 		<!-- Navbar -->
@@ -46,6 +50,7 @@
 					<!-- Left links -->
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li class="nav-item">
+
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
@@ -113,10 +118,7 @@
 			</div>
 			<!-- Container wrapper -->
 		</nav>
-		<!-- Back to top button -->
-		<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-			<i class="fas fa-arrow-up"></i>
-		</button>
+
 		<!-- //Navbar -->
 		<!-- SLIDE MENU LIST ITEMS -->
 
@@ -3202,7 +3204,7 @@
 
 		<script>
 			//Get the button
-			let mybutton = document.getElementById('btn-back-to-top');
+			let mybutton = document.getElementById("btn-back-to-top");
 
 			// When the user scrolls down 20px from the top of the document, show the button
 			window.onscroll = function () {
@@ -3210,21 +3212,24 @@
 			};
 
 			function scrollFunction() {
-				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-					mybutton.style.display = 'block';
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
 				} else {
-					mybutton.style.display = 'none';
+					mybutton.style.display = "none";
 				}
 			}
 			// When the user clicks on the button, scroll to the top of the document
-			mybutton.addEventListener('click', backToTop);
+			mybutton.addEventListener("click", backToTop);
 
 			function backToTop() {
 				document.body.scrollTop = 0;
 				document.documentElement.scrollTop = 0;
 			}
-
 		</script>
+		<!-- ICON ANIMATION -->
 	</body>
 
 </html>
