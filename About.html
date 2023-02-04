@@ -30,100 +30,63 @@
 	</a>
 
 	<body class="BG-ABOUT">
+
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg bg-dark mb-4 fixed-top m-0">
-			<!-- Container wrapper -->
-			<div class="container-fluid">
-				<!-- Toggle button -->
-				<button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-					data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-					aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 shadow-0">
+			<div class="container">
+				<a class="navbar-brand d-none d-sm-block " href="#"><img src="img/LOGO_WEBB.svg" alt=""
+						height="50px"></a>
+				<button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars"></i>
 				</button>
+				<div class="collapse navbar-collapse container-fluid" id="navbarNav">
+					<div class="mx-auto"></div>
+					<ul class="navbar-nav fw-bolder topBotomBordersOut">
+						<li class="nav-item">
+							<a class="nav-link text-white Alink" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white Alink activePAGE" href="About.html">ABOUT US</a>
+						</li>
+						<!-- Dropdown Menu -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white Alink" id="navbarDropdownMenuLink"
+								role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+								MENU
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li>
+									<a class="dropdown-item" href="Menu.html">OUR MENU</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="Menu.html#BREAKFAST">BREAKFAST</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="Menu.html#LUNCH">LUNCH</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="Menu.html#DINNER">DINNER</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="Menu.html#DRINK">DRINK</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link text-white Alink" href="More.html">SERVICES</a>
+						</li>
 
-				<!-- Collapsible wrapper -->
-				<div class="collapse navbar-collapse px-2" id="navbarSupportedContent">
-					<!-- Navbar brand -->
-					<a class="navbar-brand mt-2 mt-lg-0" href="index.html">
-						<img src="img/LOGO.svg" height="40" alt="MY Logo" loading="lazy" />
-					</a>
-					<!-- Left links -->
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link " href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="Menu.html">Menu</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active text-bg-dark" href="About.html">About Us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="More.html">More</a>
-						</li>
 					</ul>
-					<!-- Left links -->
 				</div>
-				<!-- Collapsible wrapper -->
-
-				<!-- Right elements -->
-				<div class="d-flex align-items-center px-2">
-					<!-- Icon -->
-					<a class="link-secondary me-3" href="#">
-						<i class="fas fa-shopping-cart"></i>
-					</a>
-
-					<!-- Notifications -->
-					<div class="dropdown">
-						<a class="link-secondary me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
-							role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-							<i class="fas fa-bell"></i>
-							<span class="badge rounded-pill badge-notification bg-danger">1</span>
-						</a>
-						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-							<li>
-								<a class="dropdown-item" href="#">Some news</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#">Another news</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#">Something else here</a>
-							</li>
-						</ul>
-					</div>
-					<!-- Avatar -->
-					<div class="dropdown">
-						<a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
-							id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
-							aria-expanded="false">
-							<img src="LogoAvatar.svg" class="rounded-circle" height="25"
-								alt="Black and White Portrait of a Man" loading="lazy" />
-						</a>
-						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
-							<li>
-								<a class="dropdown-item" href="#">My profile</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#">Settings</a>
-							</li>
-							<li>
-								<a class="dropdown-item" href="#">Logout</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<!-- Right elements -->
 			</div>
-			<!-- Container wrapper -->
 		</nav>
-
 		<!-- LEFT -->
-		<div class="bg-light">
+		<div class="bg-dark">
 			<div class="container py-5">
 				<div class="row align-items-center py-5">
 					<div class="col-lg-6">
-						<h1 class="display-4" style="color: #ff6e31; font-family: kizard" data-aos="fade-down"
+						<h1 class="display-4" style="color: #FB2576; font-family: kizard" data-aos="fade-down"
 							data-aos-easing="ease-in-out">
 							About us
 						</h1>
@@ -159,7 +122,7 @@
 				<div class="row align-items-center mb-5">
 					<div class="col-lg-6 order-2 order-lg-1">
 						<i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
-						<h2 class="font-weight-light" style="color: #ff6e31" data-aos="slide-left"
+						<h2 class="font-weight-light" style="color: #FB2576" data-aos="slide-left"
 							data-aos-easing="ease-in-out">
 							Our services
 						</h2>
@@ -175,8 +138,8 @@
 							We strive to be an integral part of your restaurant’s success by
 							helping you create memorable experiences for your customers!
 						</p>
-						<a href="More.html#sectionSV" class="btn px-5 rounded-pill shadow-sm text-light BTN_see_more"
-							data-aos="slide-up" data-aos-easing="ease-in-out">See More</a>
+						<a href="More.html#sectionSV" class="btn px-5 btn-rounded"
+						style="background: #FB2576 ; color: #ffff;"	data-aos="slide-up" data-aos-easing="ease-in-out">See More</a>
 					</div>
 					<div class="col-lg-5 px-5 mx-auto order-1 order-lg-2">
 						<img src="img/Services (1080 × 1080 px) (1).svg" alt="" class="img-fluid mb-4 mb-lg-0"
@@ -190,7 +153,7 @@
 					</div>
 					<div class="col-lg-6">
 						<i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
-						<h2 class="font-weight-light" style="color: #ff6e31" data-aos="zoom-in-up"
+						<h2 class="font-weight-light" style="color: #FB2576" data-aos="zoom-in-up"
 							data-aos-easing="ease-in-out">
 							CAMPUS
 						</h2>
@@ -209,7 +172,7 @@
 							to try!
 						</p>
 						<a href="More.html#sectionCAMPUS"
-							class="btn px-5 rounded-pill shadow-sm text-light BTN_see_more" data-aos="fade-right"
+							class="btn px-5 rounded-pill btn-rounded" style="background: #FB2576 ; color: #ffff;" data-aos="fade-right"
 							data-aos-easing="ease-in-out">See More</a>
 					</div>
 				</div>
@@ -220,7 +183,7 @@
 			<div class="container py-5">
 				<div class="row mb-4">
 					<div class="col-lg-5">
-						<h2 class="display-4 fw-bold" style="color: #ff6e31" data-aos="fade-up"
+						<h2 class="display-4 fw-bold" style="color: #FB2576" data-aos="fade-up"
 							data-aos-easing="ease-in-out">
 							Our Team
 						</h2>
@@ -409,6 +372,18 @@
 				document.documentElement.scrollTop = 0;
 			}
 
+		</script>
+		<!-- NAVBAR -->
+		<script type="text/javascript">
+			var nav = document.querySelector('nav');
+
+			window.addEventListener('scroll', function () {
+				if (window.pageYOffset > 100) {
+					nav.classList.add('bg-dark', 'shadow');
+				} else {
+					nav.classList.remove('bg-dark', 'shadow');
+				}
+			});
 		</script>
 	</body>
 

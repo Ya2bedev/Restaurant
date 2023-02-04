@@ -1,19 +1,14 @@
 @import url(https://github.com/Ya2bedev/FutWEB/blob/master/font/kizard.otf);
 
-.navbar-nav > .nav-item > .nav-link {
-	color: #ff6e31;
-}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 .body_home {
-	background-image: url(img/Background.png);
-	/* Full height */
+	background-image: url(img/BG_hoMe.jpg);
 	height: 100vh;
 	width: 100%;
-	/* Center and scale the image nicely */
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -28,7 +23,6 @@
 	background-size: cover;
 	background-attachment: fixed;
 }
-/* =========NAVBARVIGATION=========== */
 
 /*====STYLE  BACKGROUND ON PAGE MENU */
 .BG_MENU {
@@ -66,45 +60,6 @@
 	100% {
 		background: #ea2222;
 	}
-}
-/* ===Button SEE MORE ON PAGE ABOUT US */
-.BTN_see_more {
-	background: #ff6e31;
-	color: #fff;
-}
-/*=====FORM LIGIN ON PAGE HOME*/
-.divider-text {
-	position: relative;
-	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-.divider-text span {
-	padding: 7px;
-	font-size: 12px;
-	position: relative;
-	z-index: 2;
-}
-
-.divider-text:after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	border-bottom: 1px solid #ddd;
-	top: 55%;
-	left: 0;
-	z-index: 1;
-}
-
-.btn-facebook {
-	background-color: #405d9d;
-	color: #fff;
-}
-
-.btn-twitter {
-	background-color: #42aeec;
-	color: #fff;
 }
 
 /*====SOCIAL MEDIA ICON ON PAGE ABOUT US*/
@@ -514,4 +469,44 @@ footer {
 	right: 20px;
 	display: none;
 	z-index: 98;
+}
+/* NAVBAR */
+.nav-item .Alink {
+	color: #f608d2;
+
+	text-decoration: none;
+	margin: 0px 10px;
+	padding: 10px 10px;
+	position: relative;
+	z-index: 0;
+}
+
+.topBotomBordersOut .Alink:before,
+.topBotomBordersOut .Alink:after {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.topBotomBordersOut .Alink:before {
+	top: 0px;
+	transform: translateY(10px);
+}
+.topBotomBordersOut .Alink:after {
+	bottom: 0px;
+	transform: translateY(-10px);
+}
+.topBotomBordersOut .Alink:hover:before,
+.topBotomBordersOut .Alink:hover:after {
+	opacity: 1;
+	transform: translateY(0px);
+}
+.activePAGE {
+	background-color: #fb2576;
+	border-radius: 10%;
 }
